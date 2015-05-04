@@ -1,0 +1,10 @@
+---
+action: org.openintents.action.RUN_AUTOMATION
+input: 
+extras:
+output:
+---
+Run automation
+==============
+
+Intent to start execution of an automated task.

@@ -1,0 +1,15 @@
+---
+action: org.openintents.action.PAY_TO
+input: data uri: specifying the receiver of the money
+extras: 
+	org.openintents.extra.AMOUNT (DECIMAL)
+	android.intent.extra.TEXT (TEXT)
+output:
+	none
+---
+Pay money
+=========
+
+Intent to pay some one a specified amount of money.
+
+The receiver of the money could be specified by an email address (mailto://) or through content like "content://com.visa/savedreceivers/1", or mime type "text/x-bancAccount" or by additional information of a contact.
