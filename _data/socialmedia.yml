@@ -1,0 +1,10 @@
+- name: Twitter
+  url: http://twitter.com/openintents
+  class: icon-twitter
+  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+
+- name: GitHub
+  url: http://github.com/openintents
+  class: icon-github
+  title: Code und mehr...
+

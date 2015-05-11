@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Openintents : The website of OpenIntents">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>OpenIntents</title>
-  </head>
-
-  <body>
-
+---
+layout: default
+---
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -36,6 +24,17 @@
 <h3>
 <a name="please-send-emails-to-supportopenintentsorg" class="anchor" href="#please-send-emails-to-supportopenintentsorg"><span class="octicon octicon-link"></span></a>Please send emails to <a href="mailto:support@openintents.org">support@openintents.org</a>
 </h3>
+
+<ul class="post-list">
+    {% for intent in site.intent_specs %}
+      <li>
+        <span class="post-meta">{{ intent.action }}</span>
+        <h2>
+          {{ intent.content }}
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
       </section>
     </div>
 
@@ -47,6 +46,3 @@
     </div>
 
     
-
-  </body>
-</html>

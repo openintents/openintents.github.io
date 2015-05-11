@@ -1,14 +1,16 @@
 ---
 action: org.openintents.action.PAY_TO
-input: data uri: specifying the receiver of the money
+input: "data uri: specifying the receiver of the money"
 extras: 
-	org.openintents.extra.AMOUNT (DECIMAL)
-	android.intent.extra.TEXT (TEXT)
+  - 
+    name: org.openintents.extra.AMOUNT 
+    type: DECIMAL
+  - 
+    name: android.intent.extra.TEXT 
+    type: TEXT
 output:
-	none
 ---
 Pay money
-=========
 
 Intent to pay some one a specified amount of money.
 
