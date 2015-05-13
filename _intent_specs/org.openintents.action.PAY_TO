@@ -1,4 +1,5 @@
 ---
+name: Pay money
 action: org.openintents.action.PAY_TO
 input: "data uri: specifying the receiver of the money"
 extras: 

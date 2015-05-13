@@ -1,4 +1,5 @@
 ---
+name: Run automation
 action: org.openintents.action.RUN_AUTOMATION
 input: 
 extras:
