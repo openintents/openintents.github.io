@@ -97,7 +97,16 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "openintents"
-
+  -
+    scope:
+      path: ""        
+      type: "intent_specs"
+    values:
+      layout: specification
+      show_meta: true   # Show metadata beneath all posts
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: "openintents"
 
 
 #       _   __            _             __  _           
@@ -212,3 +221,4 @@ sass:
 collections:
   intent_specs:
     output: true
+    permalink: /action/:name/
