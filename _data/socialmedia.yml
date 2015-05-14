@@ -1,0 +1,15 @@
+
+- name: Twitter
+  url: http://twitter.com/openintents
+  class: icon-twitter
+  title: "Immer das Neuste von OpenIntents gibt es auf Twitter"
+
+- name: GitHub
+  url: http://github.com/openintents
+  class: icon-github
+  title: Code und mehr...
+
+- name: Google Plus
+  url: http://plus.google.com/100544032612908902006
+  class: icon-google
+  title: "Updates and access to VIP communities"

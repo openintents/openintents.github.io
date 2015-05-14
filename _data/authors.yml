@@ -1,0 +1,12 @@
+# Author details
+# 
+# 1. Edit information below 
+# 2. Change author in default settings in config.yml
+#
+# Ressource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
+fmdroid:
+    name: "Friedger Müffke"
+    url: http://about.com/friedger
+openintents:
+    name: "OpenIntents Team"
+    url: http://openintents.org/contact

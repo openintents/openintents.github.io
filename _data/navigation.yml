@@ -1,0 +1,38 @@
+- title: Start
+  url: "/"
+  side: left
+
+- title: Intents Registry
+  url: "/intentsregistry/"
+  side: left
+
+- title: "Apps"
+  url: "/download"
+  side: left
+  dropdown:
+  - title: "OI File Manager"
+    url: "/filemanager/"
+  - title: "OI Shopping List"
+    url: "/shopping/"
+  - title: "OI Safe"
+    url: "/safe/"
+  - title: "OI Notepad"
+    url: "/notepad/"
+  - title: "more.."
+    url: "/download/"
+
+- title: "History"
+  url: "/history/"
+  side: right
+  
+- title: Contribute
+  url: "/contribute/"
+  side: right
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
