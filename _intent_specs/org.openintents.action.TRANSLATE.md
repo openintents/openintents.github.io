@@ -12,6 +12,11 @@ extras:
   -
     name: org.openintents.extra.TO_LANGUAGE
     type: String
-output: translated text
+out: 
+  extras:
+    - 
+      name: android.intent.extra.TEXT
+      type: String
+      description: translated text
 ---
 Use some translation engine to translate a text and return the result.
