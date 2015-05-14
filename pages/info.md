@@ -5,8 +5,6 @@ subheadline: "Why OpenIntents"
 show_meta: false
 teaser: "When Android was released publicly in 2007 Peli started a mailing list to discuss the use of intents ...."
 permalink: "/info/"
-header:
-    image_fullwidth: "header_drop.jpg"
 ---
 ... since then the world has changed.
 

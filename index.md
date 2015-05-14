@@ -6,8 +6,6 @@
 #
 layout: frontpage
 title: "OpenIntents – Where applications unite"
-header:
-   image_fullwidth: "header_unsplash_12.jpg"
 widget-1:
     title: "Intents Registry"
     url: '/intentsregistry/'

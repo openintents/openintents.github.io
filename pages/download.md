@@ -3,8 +3,6 @@ layout: page
 show_meta: false
 subheadline: "Explore and Download"
 title: "OI Apps"
-header:
-   image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/download/"
 ---
 <ul style="list-style: none;">

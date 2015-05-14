@@ -4,8 +4,6 @@ title: "Change is good!"
 meta_title: "OpenIntents History"
 subheadline: "OpenIntents History"
 teaser: "History and changelog of OpenIntents activities and site"
-header:
-   image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/history/"
 ---
 2015-05-31 // Version 2.0.0-pre-alpha

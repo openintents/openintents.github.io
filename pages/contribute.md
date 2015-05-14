@@ -4,8 +4,6 @@ show_meta: false
 title: "Contributing"
 subheadline: "A Step-by-Step Guide"
 teaser: "This step-by-step guide helps you to contribute to the OpenIntents registry."
-header:
-   image_fullwidth: "header_homepage_13.jpg"
 permalink: "/contribute/"
 ---
 1. Send pull requests with new Intents specifications.
