@@ -10,6 +10,6 @@ permalink: "/intentsregistry/"
 ---
 <ul>
     {% for spec in site.intent_specs %}
-    <li><a href="{{ site.url }}/action/{{ spec.action | replace:'.','-'| replace:'_','-' }}">{{ spec.title }}</a></li>
+    <li><a href="{{ site.url }}/action/{{ spec.action | slugify  }}">{{ spec.title }}</a></li>
     {% endfor %}
 </ul>

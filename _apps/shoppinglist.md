@@ -2,7 +2,6 @@
 title: OI Shopping List
 ref: shoppinglist
 teaser: OpenIntents Shopping List for Android
-github_image: true
 ---
 The OpenIntents Shopping list for Android lets you keep track of your shopping items. 
 You can also use it for other kinds of check lists, for example for ToDo lists or party guest lists.
