@@ -40,16 +40,20 @@ format: post
 			{{ content }}
 			</span>
              
+			 {% if page.hide_use %}
+			 {% else %}
 			<h3>Use</h3>
 			<pre>
-Intent intent = new Intent("{{page.action}}");
-intent.setData(Uri.parse(recipient)); // {{ page.input.uri}} {% for extra in page.extras %}
-intent.putStringExtra("{{ extra.name}}", "my text"); // {{ extra.type}}{% endfor %}
+Intent intent = new Intent("{{page.action}}"); {% if page.input.uri %}
+intent.setData(Uri.parse(recipient)); // {{ page.input.uri}} {% endif %}{% for extra in page.extras %}{% if extra.type == 'ArrayList<Integer>' %}
+intent.putIntegerArrayListExtra("{{ extra.name}}", {{ extra.sample}}); // {{ extra.type}}{% elsif extra.type == 'String' %}
+intent.putExtra("{{ extra.name}}", "{{ extra.sample}}"); // {{ extra.type}}{% else %}
+intent.putExtra("{{ extra.name}}", {{ extra.sample}}); // {{ extra.type}}{% endif %}{% endfor %}
 startActivity(intent);</pre>				
 			<p>
 			{{ page.output}}
             </p>	
-			
+			{% endif %}
 			{% if page.show_meta == true %}
 			{% include meta_information.html %}
 			{% endif %}

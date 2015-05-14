@@ -6,10 +6,11 @@ format: post
 	<div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
-				{% if page.image.title %}
+				{% if page.image.hide %}
+				{% else %}
 				<figure>
-					<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}" itemprop="image">
-
+					<img src="https://raw.githubusercontent.com/openintents/{{ page.ref }}/master/promotion/icons/ic_launcher_{{page.ref}}_512.png" width="125" alt="{{ page.title escape_once }}" itemprop="image">
+					
 					{% if page.image.caption_url && page.image.caption %}
 					<figcaption class="text-right">
 						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
@@ -44,9 +45,8 @@ format: post
 			{% include meta_information.html %}
 			{% endif %}
 
-			{% if page.comments == true %}
-			{% include comments.html %}
-			{% endif %}
+			<a href="https://github.com/openintents/{{page.ref}}">See on Github</a></br>
+			<a href="https://play.google.com/store/apps/details?id=org.openintents.{{page.ref}}">Download from Google Play</a>
 		</article>
 	</div><!-- /.medium-8.columns -->
 

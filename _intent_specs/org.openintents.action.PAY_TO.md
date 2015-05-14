@@ -6,10 +6,16 @@ input:
 extras: 
   - 
     name: org.openintents.extra.AMOUNT 
-    type: DECIMAL
+    type: float
+    sample: 10.00
+  - 
+    name: org.openintents.extra.CURRENCY 
+    type: String
+    sample: USD
   - 
     name: android.intent.extra.TEXT 
-    type: TEXT
+    type: String
+    sample: invoice 123
 output:
 ---
 Intent to pay some one a specified amount of money.
