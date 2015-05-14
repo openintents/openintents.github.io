@@ -107,6 +107,7 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "openintents"
+      component: "activity"
   -
     scope:
       path: ""        
