@@ -10,7 +10,7 @@ permalink: "/intentsregistry/"
 ---
 <a href="https://github.com/openintents/openintents.github.io/new/master/_intent_specs">Add a new intent protocol via Github.</a>
 <ul>
-    {% assign ordered_specs = site.intent_specs | sort: "title" %}}
+    {% assign ordered_specs = site.intent_specs | sort: "title" %}
     {% for spec in ordered_specs %}
     <li><a href="{{ site.url }}/action/{{ spec.action | slugify  }}">{{ spec.title }}</a></li>
     {% endfor %}
