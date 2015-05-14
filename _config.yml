@@ -107,6 +107,15 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "openintents"
+  -
+    scope:
+      path: ""        
+      type: "apps"
+    values:
+      layout: app
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: "openintents"	  
 
 
 #       _   __            _             __  _           
@@ -222,3 +231,6 @@ collections:
   intent_specs:
     output: true
     permalink: /action/:name/
+  apps:
+    output: true
+    permalink: /:name/	
