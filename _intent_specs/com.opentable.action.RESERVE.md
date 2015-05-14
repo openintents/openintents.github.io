@@ -7,4 +7,4 @@ input:
 Reserve a table at a known location of opentable.com, partysize and refId are optional query parameters of the url.
 
 Read more at
-http://blog.7touchgroup.com/2009/12/integrating-application-with-intents/
+[7 Touch Group's blog](http://blog.7touchgroup.com/2009/12/integrating-application-with-intents/).

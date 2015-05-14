@@ -1,5 +1,5 @@
 ---
-title: 
+title: Open Volumne Settings
 action: com.roozen.intent.VOLUME_CONTROL
 extras:
   -

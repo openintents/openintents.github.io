@@ -40,6 +40,12 @@ format: post
 			{{ content }}
 			</span>
              
+			 {% if {{page.constant | slice: 0, 8}} == "android." %}
+			 <a href="{{page.link}}"> Read also the Android documentation</a>
+			 {% elsif {{page.link}} %}
+			 <a href="{{page.link}}"> See related web site</a>
+			 {% else %}
+			 {% endif %}
 			 {% if page.hide_use %}
 			 {% else %}
 			<h3>Use</h3>
@@ -48,8 +54,13 @@ Intent intent = new Intent("{{page.action}}"); {% if page.input.uri %}
 intent.setData(Uri.parse(recipient)); // {{ page.input.uri}} {% endif %}{% for extra in page.extras %}{% if extra.type == 'ArrayList<Integer>' %}
 intent.putIntegerArrayListExtra("{{ extra.name}}", {{ extra.sample}}); // {{ extra.type}}{% elsif extra.type == 'String' %}
 intent.putExtra("{{ extra.name}}", "{{ extra.sample}}"); // {{ extra.type}}{% else %}
-intent.putExtra("{{ extra.name}}", {{ extra.sample}}); // {{ extra.type}}{% endif %}{% endfor %}
-startActivity(intent);</pre>				
+intent.putExtra("{{ extra.name}}", {{ extra.sample}}); // {{ extra.type}}{% endif %}{% endfor %}{% if page.out %}
+startActivityForResult(intent, REQUEST_CODE);
+
+public void onActivityResult(Intent intent) { {% for extra in page.out.extras %}
+  {{extra.type}} {{extra.var}} = intent.get{{extra.type}}Extra({{extra.name}});{% endfor %} 
+}{% else %}
+startActivity(intent);{% endif %}</pre>				
 			<p>
 			{{ page.output}}
             </p>	
