@@ -34,7 +34,7 @@ improve_content: https://github.com/openintents/openintents.github.io/edit/maste
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "http://openintents.github.io/images/"
+urlimg: "https://openintents.github.io/images/"
 
 
 # Logo size is 600x80 pixels
