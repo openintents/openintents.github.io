@@ -1,6 +1,7 @@
 ---
 title: OI About
-ref: aboutapp
+ref: about
+github: aboutapp
 teaser: OI About is a standalone about dialog that is shared between apps
 ---
 This application is invoked through the menu of other OI applications. 
