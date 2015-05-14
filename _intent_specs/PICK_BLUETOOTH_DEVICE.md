@@ -1,5 +1,5 @@
 ---
-title: Pcik Bluetooth Device
+title: Pick Bluetooth Device
 action: PICK_BLUETOOTH_DEVICE
 output: 
   - 
