@@ -1,5 +1,5 @@
 ---
-title: Intents using Bluetooth Device Picker
+title: Pcik Bluetooth Device
 action: PICK_BLUETOOTH_DEVICE
 output: 
   - 
