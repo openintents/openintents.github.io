@@ -1,3 +1,0 @@
-OI Shopping list
-================
-
