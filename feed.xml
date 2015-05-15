@@ -7,13 +7,13 @@
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    {% for spec in site.intent_specs %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>{{ spec.title | xml_escape }}</title>
+        <description>{{ spec.content | xml_escape }}</description>
+        <pubDate>{{ spec.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ spec.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ spec.url | prepend: site.baseurl | prepend: site.url }}</guid>
       </item>
     {% endfor %}
   </channel>
