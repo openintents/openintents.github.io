@@ -39,8 +39,7 @@ To support the ongoing development of our project, we would gratefully welcome a
 #### <i class='fa fa-btc'></i> Donate in Bitcoins 
 <a href="bitcoin:16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ?label=Donation OpenIntents">
 <img src="{{site.url}}/images/16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ.png" ></a>
-<p>16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ</p>
-<img src="http://ansrv.com/png?s=http://blockexplorer.com/q/getreceivedbyaddress/16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ&amp;c=000000&amp;b=FFFFFF&amp;size=5" />
+<p><a href="https://blockchain.info/address/16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ">16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ</a></p>
 
 <h2>Development</h2>
 There is a lot to do, and so far we are only a small core team of developers. All code is on [Github](https://github.com/openintents).
