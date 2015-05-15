@@ -1,8 +1,7 @@
 ---
 title: Pay Money
 action: org.openintents.action.PAY_TO
-input: 
-    uri: Specifying the receiver of the money
+uri: Specifying the receiver of the money
 extras: 
   - 
     name: org.openintents.extra.AMOUNT 

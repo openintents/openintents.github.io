@@ -5,7 +5,7 @@ extras:
   -
     name: android.intent.extra.measurement.TYPE
     description: Specifies the physical characteristic being measured.
-output:
+out:
   The result of the measurement collection will be returned. 
   Units and data types will vary depending on the physical information being measured.
 ---

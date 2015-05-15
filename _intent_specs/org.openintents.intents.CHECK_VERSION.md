@@ -1,8 +1,7 @@
 ---
 title: Check App version
 action: org.openintents.intents.CHECK_VERSION
-input:
-  uri: url to version info file
+uri: url to version info file
 ---
 Protocol to facilitate automated update mechanism for app stores.
 

@@ -1,8 +1,7 @@
 ---
 title: Count Pages of PDF Document
 action: com.acadoid.pdfview.action.COUNT_PAGES
-input:
-  uri: PDF file Uri
+uri: PDF file Uri
 out:
   extras:
     -

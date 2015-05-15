@@ -1,8 +1,7 @@
 ---
 title: Add a Tag to the Given Data
 action: org.openintents.action.TAG
-input:
-  uri: uri of the tag
+uri: uri of the tag
 extras:
   -
     name: tag

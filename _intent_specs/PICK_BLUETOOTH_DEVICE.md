@@ -1,15 +1,16 @@
 ---
 title: Pick Bluetooth Device
 action: PICK_BLUETOOTH_DEVICE
-output: 
-  - 
-    name: ADDR
-    type: String
-    description: the MAC address
-  -
-    name: FRIENDLYNAME
-    type: String
-    description: the Name of the Device
+out: 
+  extras:
+    - 
+      name: ADDR
+      type: String
+      description: the MAC address
+    -
+      name: FRIENDLYNAME
+      type: String
+      description: the Name of the Device
 
 author: ligi
 submitted: 2011-04-24

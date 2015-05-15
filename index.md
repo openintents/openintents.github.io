@@ -15,7 +15,7 @@ widget-2:
     title: "OI Apps"
     url: '/download/'
     text: 'OpenIntents has produced several open source apps to show case the use of intents. Explore and download them'
-    image: communication_A-303x182.jpg
+    image: oiapps-303x182.jpg
 widget-3:
     title: "Check the source"
     url: 'https://github.com/openintents'

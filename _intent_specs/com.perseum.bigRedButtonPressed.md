@@ -3,7 +3,7 @@ title: Big Red Button Pressed
 action: com.perseum.bigRedButtonPressed
 input: 
 extras:
-output:
+out:
 ---
 
 Broadcast intent to notify that the user pressed the big red button.

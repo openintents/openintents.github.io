@@ -6,7 +6,7 @@ extras:
     name: org.openintents.extra.COLOR
     type: String
     description: default colour or previously selected color
-output:
+out:
   extras:
     -
       name: org.openintents.extra.COLOR

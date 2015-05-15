@@ -1,7 +1,7 @@
 ---
 title: Show about dialog
 action: org.openintents.action.SHOW_ABOUT_DIALOG
-output: none, but required to recognise the calling app.
+out: none (but startActivityForResult can be used to recognise the calling app.)
 ---
 Show an about dialog to display information about your application.
 

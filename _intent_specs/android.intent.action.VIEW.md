@@ -1,8 +1,7 @@
 ---
 title: View data
 action: android.intent.action.VIEW
-input:
-  uri: Uri of the data to be displayed
+uri: Uri of the data to be displayed
 link: https://developer.android.com/reference/android/content/Intent.html#ACTION_VIEW
 author: android
 ---

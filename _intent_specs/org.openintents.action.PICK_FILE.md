@@ -1,8 +1,7 @@
 ---
 title: Pick a file
 action: org.openintents.action.PICK_FILE
-input:
-  uri: A file URI for suggested file name or starting directory. Can also be left empty.
+uri: A file URI for suggested file name or starting directory. Can also be left empty.
 extras:
   -
     name: org.openintents.extra.TITLE
@@ -12,7 +11,7 @@ extras:
    name: org.openintents.extra.BUTTON_TEXT
    type: String
    description: text for the default button of an activity.
-output:
+out:
   uri: File URI of the selected file.
 ---
 Pick a file through a file manager.
