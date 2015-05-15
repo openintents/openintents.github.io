@@ -1,15 +1,30 @@
 
 - name: Twitter
-  url: http://twitter.com/openintents
-  class: icon-twitter
-  title: "Immer das Neuste von OpenIntents gibt es auf Twitter"
+  url: https://twitter.com/openintents
+  class: fa fa-twitter
+  title: "All news from OpenIntents on Twitter"
 
 - name: GitHub
-  url: http://github.com/openintents
-  class: icon-github
-  title: Code und mehr...
+  url: https://github.com/openintents
+  class: fa fa-github
+  title: Code and more ...
 
 - name: Google Plus
-  url: http://plus.google.com/100544032612908902006
-  class: icon-google
+  url: https://plus.google.com/100544032612908902006
+  class: fa fa-google-plus
   title: "Updates and access to VIP communities"
+
+- name: Google Play
+  url: https://play.google.com/store/apps/developer?id=OpenIntents
+  class: fa fa-android
+  title: "OI Apps at Google Play"
+
+- name: LinkedIn
+  url: https://www.linkedin.com/company/openintents.org
+  class: fa fa-linkedin
+  title: "OpenIntents as a legal entity on LinkedIn"
+
+- name: Bitcoins
+  url: https://blockchain.info/address/16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ
+  class: fa fa-bitcoin
+  title: "OpenIntents' bitcoin address"
