@@ -171,11 +171,11 @@ msapplication_tilecolor:                "#fabb00"
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<   
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
+og_image:                           "https://avatars2.githubusercontent.com/u/311533"
 og_locale:                          "en_EN"
 og_type:                            "website"
-og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
-og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+og_title:                           "OpenIntents – Where Applications unite"
+og_description:                     "OpenIntents is a community effort to promote and discuss the use of Android intents and similar concept of modern mobile platforms."
 # og_url:                           ""
 # og_site_name:                     ""
 
