@@ -2,24 +2,24 @@
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    {% unless post.published == false %}
+  {% for spec in site.intent_specs %}
+    {% unless spec.published == false %}
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.sitemap.lastmod %}
-        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif post.date %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <loc>{{ site.url }}{{ spec.url }}</loc>
+      {% if spec.sitemap.lastmod %}
+        <lastmod>{{ spec.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif spec.date %}
+        <lastmod>{{ spec.date | date_to_xmlschema }}</lastmod>
       {% else %}
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
       {% endif %}
-      {% if post.sitemap.changefreq %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% if spec.sitemap.changefreq %}
+        <changefreq>{{ spec.sitemap.changefreq }}</changefreq>
       {% else %}
         <changefreq>monthly</changefreq>
       {% endif %}
-      {% if post.sitemap.priority %}
-        <priority>{{ post.sitemap.priority }}</priority>
+      {% if spec.sitemap.priority %}
+        <priority>{{ spec.sitemap.priority }}</priority>
       {% else %}
         <priority>0.5</priority>
       {% endif %}
@@ -50,4 +50,28 @@
     </url>
     {% endunless %}
   {% endfor %}
+{% for app in site.apps %}
+    {% unless app.sitemap.exclude == "yes" %}
+    <url>
+      <loc>{{ site.url }}{{ app.url | remove: "index.html" }}</loc>
+      {% if app.sitemap.lastmod %}
+        <lastmod>{{ app.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif app.date %}
+        <lastmod>{{ app.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if app.sitemap.changefreq %}
+        <changefreq>{{ app.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if app.sitemap.priority %}
+        <priority>{{ app.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.3</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}  
 </urlset>
