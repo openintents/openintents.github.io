@@ -49,7 +49,7 @@ format: post
 			 {% unless page.hide_use %}			 
 			<h3>Use</h3>
 			<pre>
-public void start{{page.title | camelcaseize}}({% for extra in page.out.extras %}{{extra.type}} {{extra.var}}{%unless forloop.last%}, {%endunless %}{% endfor %}) {
+public void start{{page.title | capitalize | replace ' ', ''}}({% for extra in page.out.extras %}{{extra.type}} {{extra.var}}{%unless forloop.last%}, {%endunless %}{% endfor %}) {
     Intent intent = new Intent("{{page.action}}"); {% if page.uri %}
     intent.setData(dataUri); // {{ page.uri}} {% endif %}{% for extra in page.extras %}{% if extra.type == 'ArrayList<Integer>' %}
     intent.putIntegerArrayListExtra("{{ extra.name}}", {{ extra.sample}}); // {{ extra.type}}{% elsif extra.type == 'String' %}
