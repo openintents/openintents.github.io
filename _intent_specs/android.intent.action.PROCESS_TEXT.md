@@ -7,10 +7,12 @@ extras:
   -
     name: android.intent.extra.PROCESS_TEXT
     type: String
+    var: text
     description: text to be processed
   -
     name: android.intent.extra.PROCESS_TEXT_READONLY
     type: boolean
+    var: readonly
     description: states if the resulting text will be read-only  
 out:
   extras:
