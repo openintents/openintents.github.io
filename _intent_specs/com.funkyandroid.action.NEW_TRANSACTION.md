@@ -5,18 +5,22 @@ extras:
   -
     name: com.funkyandroid.CATEGORY
     type: String
+    var: category
     description: A String holding the category of an item. This should be a textual representation and not an id (e.g. Hotel expenses).
   -
     name: com.funkyandroid.DATE
     type: long
+    var: date
     description: Date in milliseconds from EPOC, A long value holding the date in milliseconds from the epoc as returned by System.currentTimeMillis(), (new Date()).getTime(), or Calendar.getInstance().getTimeInMillis().
   -
     name: com.funkyandroid.AMOUNT
     type: String
+    var: amount
     description: Monetary amount, a textual representation of an amount without a currency symbol (e.g. "123.45"). The currency symbol is not included because only the receiving intent is aware of currencies it supports.
   -
     name: com.funkyandroid.PAYEE
     type: String
+    var: payee
     description: Payee for financial transaction
 
 ---

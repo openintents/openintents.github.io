@@ -5,10 +5,12 @@ extras:
   -
     name: uri
     type: String
+    var: msgUri
     description: uri of a sent text message
   -
     name: connector
     type: String
+    var: connectorName
     description: name of a WebConnector
 component: broadcast
 ---

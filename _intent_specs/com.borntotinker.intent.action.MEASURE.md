@@ -4,6 +4,8 @@ action: com.borntotinker.intent.action.MEASURE
 extras:
   -
     name: android.intent.extra.measurement.TYPE
+    type: String
+    var: type
     description: Specifies the physical characteristic being measured.
 out:
   The result of the measurement collection will be returned. 

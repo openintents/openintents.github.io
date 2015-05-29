@@ -6,10 +6,12 @@ extras:
   -
     name: tag
     type: String
+    var: tag
     description: the tag for the contents as a string
   -
     name: uri
     type: String
+    var: data
     description: uri string describing the data to be tagged
     sample: contentItemUri.toString()
 ---

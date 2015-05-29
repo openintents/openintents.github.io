@@ -6,10 +6,12 @@ extras:
   -
     name: org.openintents.extra.TITLE
     type: String
+    var: title
     description: title for the chooser activity
   -
    name: org.openintents.extra.BUTTON_TEXT
    type: String
+   var: buttonText
    description: text for the default button of an activity.
 out:
   uri: File URI of the selected file.

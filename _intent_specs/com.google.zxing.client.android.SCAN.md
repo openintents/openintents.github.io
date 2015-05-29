@@ -5,6 +5,7 @@ extras:
   -
     name: SCAN_MODE
     type: String
+    var: mode
     description: Provide optional scan mode ("PRODUCT_MODE", "ONE_D_MODE", "QR_CODE_MODE")
     sample: QR_CODE_MODE
   -

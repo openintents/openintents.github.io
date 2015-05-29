@@ -5,12 +5,14 @@ extras:
   -
     name: org.openintents.extra.COLOR
     type: String
+    var: color
     description: default colour or previously selected color
 out:
   extras:
     -
       name: org.openintents.extra.COLOR
       type: String
+      var: color
       description: default colour or previously selected color
 ---
 Pick a color using a color picker dialog.

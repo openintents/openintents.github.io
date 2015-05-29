@@ -1,5 +1,5 @@
 ---
-title: Process a provided text
+title: Process text
 action: android.intent.action.PROCESS_TEXT
 constant: android.content.Intent.ACTION_PROCESS_TEXT
 link: https://developer.android.com/reference/android/content/Intent.html#ACTION_PROCESS_TEXT
@@ -19,6 +19,7 @@ out:
     -
       name: android.intent.extra.PROCESS_TEXT
       type: String
+      var: processedText
       description: the processed text
 ---
 Process a piece of text

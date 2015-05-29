@@ -5,6 +5,7 @@ extras:
   -
     name: TYPE
     type: int
+    var: type
     description: Volume Stream (accepted values=AudioManager.STREAM_SYSTEM, AudioManager.STREAM_MUSIC, AudioManager.STREAM_RING, AudioManager.STREAM_VOICE_CALL, AudioManager.STREAM_ALARM, AudioManager.STREAM_NOTIFICATION)
 ---
 Use this intent to pop up a dialog box in your activity to allow the user to manually change one of the six volume streams as listed under input.

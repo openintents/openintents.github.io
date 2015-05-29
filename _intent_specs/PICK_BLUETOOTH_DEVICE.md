@@ -6,10 +6,12 @@ out:
     - 
       name: ADDR
       type: String
+      var: macAddress
       description: the MAC address
     -
       name: FRIENDLYNAME
       type: String
+      var: name
       description: the Name of the Device
 
 author: ligi

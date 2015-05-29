@@ -5,6 +5,7 @@ extras:
   - 
     name: org.openintents.remote.intent.extra.HOST
     type: String
+    var: host
     description: Specifies the host on which to execute a remote intent.
 author: mr.baldwin  
 ---

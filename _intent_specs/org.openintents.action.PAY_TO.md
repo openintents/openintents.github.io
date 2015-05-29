@@ -6,14 +6,17 @@ extras:
   - 
     name: org.openintents.extra.AMOUNT 
     type: float
+    var: amount
     sample: 10.00
   - 
     name: org.openintents.extra.CURRENCY 
     type: String
+    var: currency
     sample: USD
   - 
     name: android.intent.extra.TEXT 
     type: String
+    var: message
     sample: invoice 123
 output:
 ---

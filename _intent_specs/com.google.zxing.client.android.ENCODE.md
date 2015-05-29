@@ -5,11 +5,13 @@ extras:
   -
     name: ENCODE_DATA
     type: String
+    var: dataString
     description: The data to encode
     sample: My link address
   -
     name: ENCODE_TYPE
     type: String
+    var: type
     description: type of data (TEXT_TYPE, EMAIL_TYPE, PHONE_TYPE, SMS_TYPE, CONTACT_TYPE, LOCATION_TYPE)
     sample: TEXT_TYPE
     optional: true
