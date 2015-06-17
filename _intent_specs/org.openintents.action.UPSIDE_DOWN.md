@@ -1,5 +1,5 @@
 ---
-title: mirror text horizontally
+title: Mirror Text Horizontally
 action: org.openintents.action.UPSIDE_DOWN
 extras:
   -
@@ -25,7 +25,7 @@ Process a given text and return it upside down.
 The text is usually a selection, if the selection is empty, 
 the whole text, i.e. before and after the caret is processed.
 
-This action is usually launched with the following category:
+This action is usually launched with mime type `text/plain` and the following category:
 ```
 org.openintents.category.TEXT_SELECTION_ALTERNATIVE
 ```
