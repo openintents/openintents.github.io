@@ -1,5 +1,5 @@
 ---
-title: Mirror Text Horizontally
+title: Turn Text Upside Down
 action: org.openintents.action.UPSIDE_DOWN
 extras:
   -
