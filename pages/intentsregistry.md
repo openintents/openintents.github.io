@@ -13,5 +13,5 @@ permalink: "/intentsregistry/"
     <li><a href="{{ site.url }}/action/{{ spec.action | slugify  }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
     {% endfor %}
 </ul>
-<a href="https://developer.android.com/guide/components/intents-common.html">Read also Google's documentation about commen intents.</a>
+<a href="https://developer.android.com/guide/components/intents-common.html">Read also Google's documentation about common intents.</a>
 
