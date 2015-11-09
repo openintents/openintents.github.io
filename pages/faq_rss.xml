@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://caique.arvixe.com/~oi/faq" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Frequently Asked Questions</title>
+    <link>http://caique.arvixe.com/~oi/faq</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>How can I back up my data?</title>
+    <link>http://caique.arvixe.com/~oi/node/662</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/notepad&quot;&gt;OI Notepad&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/shoppinglist&quot;&gt;OI Shopping List&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;You can use MyBackup Pro or &lt;a href=&quot;http://openintents.org/~oi/node/158&quot;&gt;OI Convert CSV&lt;/a&gt; or the build-in backup menus&lt;/p&gt;
+&lt;!--break--&gt;&lt;p&gt;&lt;b&gt;OI Notepad:&lt;/b&gt;&lt;br /&gt;
+Use &lt;a href=&quot;http://openintents.org/~oi/node/158&quot;&gt;OI Convert CSV&lt;/a&gt; or MyBackup Pro.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;OI Safe:&lt;/b&gt;&lt;br /&gt;
+Use menu &amp;gt; Backup, or menu &amp;gt; Export, or MyBackup Pro.&lt;br /&gt;
+Notes:&lt;br /&gt;
+ * Use menu &amp;gt; Backup to properly back up your passwords and master key for later recovery in an encrypted format.&lt;br /&gt;
+ * Use menu &amp;gt; Export to export all passwords to a plain readable CSV file.&lt;br /&gt;
+ * Also keep the master password in a safe place.&lt;br /&gt;
+ * See also:&lt;br /&gt;&lt;a href=&quot;http://openintents.org/~oi/node/681&quot;&gt;How can I recover encrypted notes or photos after a phone reset?&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://openintents.org/~oi/node/752&quot;&gt;How can I transfer my passwords to another phone?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;OI Shopping List:&lt;/b&gt;&lt;br /&gt;
+Use OI Convert CSV or MyBackup Pro.&lt;br /&gt;
+ * OI Convert CSV with &quot;MS Outlook Tasks&quot; format does not export quantity, price, and tag information.&lt;br /&gt;
+ * OI Convert CSV with &quot;HandyShopper&quot; format exports all fields, but you have to export each list separately.&lt;br /&gt;
+ * MyBackup Pro saves all the information.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 May 2010 00:59:31 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">662 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>I can not install OI File Manager because it is not correctly signed</title>
+    <link>http://caique.arvixe.com/~oi/node/825</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/filemanager&quot;&gt;OI File Manager&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This error happens on custom builds of Android that have a custom version of OI File Manager pre-installed that uses the same package name, but is not signed with the original OpenIntents certificate.&lt;/p&gt;
+&lt;p&gt;This issue is known for&lt;br /&gt;
+* &lt;a href=&quot;http://www.cyanogenmod.com/&quot;&gt;CyanogenMod&lt;/a&gt;&lt;br /&gt;
+* &lt;a href=&quot;http://t3hh4xx0r.com/&quot;&gt;Omfgb ROM&lt;/a&gt;&lt;br /&gt;
+* &lt;a href=&quot;http://forum.xda-developers.com/showthread.php?t=690477&quot;&gt;DeFrost ROM&lt;/a&gt;&lt;br /&gt;
+* &lt;a href=&quot;http://forum.xda-developers.com/showthread.php?t=891692&quot;&gt;GummyJAR ROM&lt;/a&gt;&lt;br /&gt;
+* &lt;a href=&quot;http://liquidsmoothroms.com/&quot;&gt;Liquid Smooth Roms&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please contact the maintainers of those distributions for a solution on how to uninstall the pre-installed file manager.&lt;/p&gt;
+&lt;!--break--&gt;&lt;h3&gt;More information&lt;/h3&gt;
+&lt;p&gt;These ROMs ship a custom version of OI File Manager that has the wrong signature, i.e. that is not signed with the original (i.e. OpenIntents) certificate. Ideally, the maintainers should modify the package name so that their pre-installed file manager and our OI File Manager can be installed concurrently on the same device. Until they provide this update, you should first uninstall the pre-installed file manager so that you can install the latest version of OI File Manager.&lt;/p&gt;
+&lt;p&gt;If you have root access:&lt;br /&gt;
+1. Remove the OI File Manager apk file from /system/app&lt;br /&gt;
+2. Install OI File Manager from Market.&lt;/p&gt;
+&lt;h3&gt;How you can help&lt;/h3&gt;
+&lt;p&gt;Please write to CyanogenMod to take out the old version of OI File Manager from /system/app and only use a version that has been properly signed by OpenIntents:&lt;/p&gt;
+&lt;p&gt;* Star the following issue report:&lt;br /&gt;&lt;a href=&quot;http://code.google.com/p/cyanogenmod/issues/detail?id=3805&quot;&gt;http://code.google.com/p/cyanogenmod/issues/detail?id=3805&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;* Write to this forum:&lt;br /&gt;&lt;a href=&quot;http://forum.cyanogenmod.com/topic/16205-oi-file-manager-cant-be-updated-in-market&quot;&gt;http://forum.cyanogenmod.com/topic/16205-oi-file-manager-cant-be-updated...&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 08 Feb 2011 17:16:00 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">825 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How can I transfer my passwords to another phone?</title>
+    <link>http://caique.arvixe.com/~oi/node/752</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;On old phone:&lt;/p&gt;
+&lt;p&gt;1.  In OI Safe, Menu-&amp;gt;Backup which creates /sdcard/oisafe.xml&lt;br /&gt;
+2.  Connect phone to PC via USB and copy oisafe.xml to PC&lt;/p&gt;
+&lt;p&gt;On new phone:&lt;/p&gt;
+&lt;p&gt;3.  Connect phone to same PC and copy oisafe.xml to new phone.&lt;br /&gt;
+4.  Install OI Safe if not already installed.&lt;br /&gt;
+5.  With OI Safe, Menu-&amp;gt;Restore.   Or if running OI Safe for the 1st time on new phone there will be a &quot;Restore&quot; button because it detects the oisafe.xml file.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 04 Sep 2010 15:31:56 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">752 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>I had to reset my phone. How can I retrieve my data?</title>
+    <link>http://caique.arvixe.com/~oi/node/672</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/notepad&quot;&gt;OI Notepad&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/shoppinglist&quot;&gt;OI Shopping List&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Unfortunately your data (notes, shopping lists, passwords) are lost, unless you created a back up.&lt;/p&gt;
+&lt;p&gt;See here how to create a backup &lt;i&gt;before&lt;/i&gt; you reset your phone:&lt;br /&gt;&lt;a href=&quot;http://www.openintents.org/~oi/node/662&quot;&gt;How can I back up my data?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The applications OI Notepad, OI Shopping List, and OI Safe store all user data by default in internal memory. These data are lost after a phone reset. It is advisable to regularly back up your data.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 29 May 2010 09:58:04 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">672 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>Using GET_CONTENT does not return a file URI anymore</title>
+    <link>http://caique.arvixe.com/~oi/node/829</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/filemanager&quot;&gt;OI File Manager&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;The default behavior changed, in accordance with the Android documentation. GET_CONTENT will return a &quot;content:&quot; URI that you can query for the file content. You have to modify your application accordingly.&lt;/p&gt;
+&lt;p&gt;If you want to obtain a &quot;file:&quot; URI, use the PICK_FILE intent:&lt;br /&gt;
+/node/164&lt;/p&gt;
+&lt;!--break--&gt;&lt;h3&gt;More information&lt;/h3&gt;
+&lt;p&gt;According to the Android documentation, the previous behavior of OI File Manager as well as other file managers that return the &quot;file:&quot; URI, is wrong:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://developer.android.com/reference/android/content/Intent.html#ACTION_GET_CONTENT&quot;&gt;http://developer.android.com/reference/android/content/Intent.html#ACTIO...&lt;/a&gt;&lt;br /&gt;
+&quot;Output: The URI of the item that was picked. This must be a content: URI so that any receiver can access it.&quot;&lt;/p&gt;
+&lt;p&gt;This is also the behavior that Google&#039;s GMail application expects when you attach a file. The idea is that you can directly access the returned &quot;content:&quot; URI by opening a stream on that URI.&lt;/p&gt;
+&lt;p&gt;If you query the content provider on the uri returned, you can:&lt;br /&gt;
+* use getContentResolver().query(uri, null, null, null, null) to access the columns &quot;Images.Media.DATA&quot; and &quot;Images.Media.MIME_TYPE&quot; to obtain file name and MIME type,&lt;br /&gt;
+* call getContentResolver().getType(uri) directly to obtain the MIME type,&lt;br /&gt;
+* use getContentResolver().getFileDescriptor(uri, &quot;r&quot;) to access the file content directly.&lt;/p&gt;
+&lt;h3&gt;How to be backward / forward compatible:&lt;/h3&gt;
+&lt;p&gt;Use the following code in onActivityResult():&lt;/p&gt;
+&lt;pre&gt;
+// obtain the filename
+Uri uri = intent.getData();
+String filePath = null;
+if (uri != null) {
+	if (uri.startsWith(&quot;file:&quot;)) {
+		filePath = uri.getPath();
+	} else { // uri.startsWith(&quot;content:&quot;)
+		Cursor c = getContentResolver().query(uri, null, null, null, null);
+		if (c != null &amp;amp;&amp;amp; c.moveToFirst()) {
+			int id = c.getColumnIndex(Images.Media.DATA);
+			if (id != -1) {
+				filePath = c.getString(id);
+			}
+		}
+	}
+}
+if (filePath != null) {
+	// filePath contains path to file.
+}
+&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 13 Feb 2011 22:16:31 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">829 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>The application will not download from Market</title>
+    <link>http://caique.arvixe.com/~oi/node/665</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/filemanager&quot;&gt;OI File Manager&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;This is a problem of Android Market.&lt;/p&gt;
+&lt;p&gt;Please try the following:&lt;br /&gt;
+From your home screen, press menu &amp;gt; settings &amp;gt; applications &amp;gt; Manage applications &amp;gt; Market &amp;gt; Clear cache.&lt;/p&gt;
+&lt;p&gt;Then start the download again.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 May 2010 01:35:21 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">665 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How can I delete (move, copy, rename) a file?</title>
+    <link>http://caique.arvixe.com/~oi/node/683</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/filemanager&quot;&gt;OI File Manager&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Since 1.3.&lt;br /&gt;
+Long-tap on a file and use cut and paste option in the context action bar (CAB) following the new Android design guidelines.&lt;/p&gt;
+&lt;p&gt;Until 1.2&lt;/p&gt;
+&lt;p&gt;Long-tap on a file. Press and hold the file until the context menu appears. This opens a context menu with the commands &quot;Move&quot;, &quot;Copy&quot;, &quot;Rename&quot;, &quot;Delete&quot;, and other possible commands.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 08 Jun 2010 08:30:25 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">683 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How can I recover encrypted notes or photos after a phone reset?</title>
+    <link>http://caique.arvixe.com/~oi/node/681</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/node/231&quot;&gt;Obscura&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/~oi/notepad&quot;&gt;OI Notepad&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Photo or note recovery requires that you have properly backed up your data.&lt;br /&gt;
+See: &lt;a href=&quot;http://openintents.org/~oi/node/662&quot;&gt;How can I back up my data?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If yes, you can do the following to recover your photos:&lt;br /&gt;
+1) Launch OI Safe. Instead of creating a new master key, click &quot;Restore&quot; when being asked for a new master password. This requires the &quot;oisafe.xml&quot; backup file to be on the SD card. &lt;/p&gt;
+&lt;p&gt;In case you have created a new master key before restoring the old master key, please note that with the old master key, you will not be able to see the newly encrypted pictures, so it is recommended to decrypt all pictures first, then restore the old master key, and then encrypt all pictures again.&lt;/p&gt;
+&lt;p&gt;2) Use your old master password to recover your old passwords in OI Safe.&lt;br /&gt;
+3) Then you should be able to recover your notes in OI Notepad and your photos in Obscura again. (You may have to turn off your phone and on again before they are recognized).&lt;/p&gt;
+&lt;p&gt;Alternatively you can use MyBackup Pro to recover your OI Safe passwords and your master key. Then you should also be able to recover your photos and notes.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 05 Jun 2010 07:32:40 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">681 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>I forgot my password, how do I retrieve it?</title>
+    <link>http://caique.arvixe.com/~oi/node/661</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;There is no way to retrieve your master password if you forgot it.&lt;/p&gt;
+&lt;p&gt;It is advisable to store the master password in a safe place. Also make sure to &lt;a href=&quot;http://openintents.org/~oi/node/662&quot;&gt;back up your data&lt;/a&gt; regularly (using menu &amp;gt; backup or MyBackup Pro). If you have exported your data previously (using menu &amp;gt; export) and copied oisafe.csv to a safe location, then you can retrieve the passwords from the oisafe.csv file by using menu &amp;gt; import.&lt;/p&gt;
+&lt;p&gt;You can reset the password by uninstalling and reinstalling OI Safe. Note that this will delete all previously stored items.&lt;/p&gt;
+&lt;p&gt;You can also clear the data associated with OI Safe and start over. Home -&amp;gt; Settings -&amp;gt; Applications -&amp;gt; Manage Applications -&amp;gt; OI Safe -&amp;gt; Clear Data.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 May 2010 00:49:22 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">661 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>After I updated the system, I can no longer rename, copy or move files on my SD card</title>
+    <link>http://caique.arvixe.com/~oi/node/660</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/filemanager&quot;&gt;OI File Manager&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Please uninstall and install OI File Manager again.&lt;/p&gt;
+&lt;p&gt;More information&lt;br /&gt;
+There is an issue with permission to access SD card when upgrading the system. Users have reported this error after upgrading to Android version 2.1.&lt;/p&gt;
+&lt;p&gt;The error has been reported on the following devices:&lt;br /&gt;
+* Droid Eris, Android version 2.1&lt;br /&gt;
+* Zenithink ZT-180 10,2&quot; , Android 2.1&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 May 2010 00:46:03 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">660 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How do I enter quantity and price?</title>
+    <link>http://caique.arvixe.com/~oi/node/664</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/shoppinglist&quot;&gt;OI Shopping List&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;In the default theme you can press the name of the item (instead of the check box) to edit it.&lt;/p&gt;
+&lt;p&gt;If you are using the &quot;Classic&quot; theme, long-press an item and select &quot;Edit item&quot;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 May 2010 01:30:58 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">664 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>My password contains letters, but OI Safe only lets me enter numbers.</title>
+    <link>http://caique.arvixe.com/~oi/node/667</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;You can hit Menu -&amp;gt; &quot;Switch mode&quot; at the password prompt to switch between normal field entry or the keypad.&lt;/p&gt;
+&lt;p&gt;In the list of categories, press Menu &amp;gt; More &amp;gt; Change Master Password to change to a password that only contains numbers.&lt;/p&gt;
+&lt;p&gt;You can also use Menu &amp;gt; More &amp;gt; Settings &amp;gt; Keypad to switch between numeric keypad or normal field entry.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 24 May 2010 20:10:05 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">667 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>Import fails. I am getting the error message: &quot;first line incomplete&quot;</title>
+    <link>http://caique.arvixe.com/~oi/node/751</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;Solution:&lt;/h2&gt;
+&lt;p&gt;Verify that the first line is &lt;b&gt;identical&lt;/b&gt; to the original oisafe.csv file.&lt;/p&gt;
+&lt;pre&gt;&quot;Category&quot;,&quot;Description&quot;,&quot;Website&quot;,&quot;Username&quot;,&quot;Password&quot;,&quot;Notes&quot;,&quot;Last edited&quot;&lt;/pre&gt;&lt;!--break--&gt;&lt;h2&gt;Why does this error occur?&lt;/h2&gt;
+&lt;p&gt;This error occurs when trying to import a CSV file into OI Safe.&lt;/p&gt;
+&lt;p&gt;OI Safe is very sensitive to the first line.  When you do the Menu-&amp;gt;Export it will create  /sdcard/oisafe.csv.   When you copy that file to your PC, open it up in something like Notepad, pay attention to that first line.   Now either use Excel or OpenOffice to edit the .CSV and export back out to a .CSV file.   Now use Notepad again to verify that the first line is &lt;b&gt;identical&lt;/b&gt; to the original oisafe.csv file.   If it&#039;s not, then it just won&#039;t work.&lt;/p&gt;
+&lt;pre&gt;&quot;Category&quot;,&quot;Description&quot;,&quot;Website&quot;,&quot;Username&quot;,&quot;Password&quot;,&quot;Notes&quot;,&quot;Last edited&quot;&lt;/pre&gt;&lt;p&gt;
+If there are extra spaces or the fields are lower-case, any variation will fail.&lt;/p&gt;
+&lt;h2&gt;See also&lt;/h2&gt;
+&lt;p&gt;* &lt;a href=&quot;http://www.openintents.org/~oi/node/732&quot;&gt;CSV file format for OI Safe is not compatible with Microsoft Excel&lt;/a&gt;. Microsoft Excel produces CSV files without quotes. The reply given there links to a VBA example that can export CSV files with quotes: &lt;a href=&quot;http://support.microsoft.com/kb/291296/en-us&quot;&gt;http://support.microsoft.com/kb/291296/en-us&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 04 Sep 2010 15:02:24 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">751 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How can I delete an item after it has been added to the pick item list?</title>
+    <link>http://caique.arvixe.com/~oi/node/663</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/shoppinglist&quot;&gt;OI Shopping List&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Long-press the item and select &quot;delete permanently&quot;.&lt;/p&gt;
+&lt;p&gt;You can not do this in the &quot;pick items&quot; list directly. Check the item in the &quot;pick items&quot; list so that it appears in your shopping list. Then long-press the item in your shopping list and select &quot;delete permanently&quot;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 May 2010 01:08:40 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">663 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How can I set a shortcut to a specific list on the home screen?</title>
+    <link>http://caique.arvixe.com/~oi/node/708</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/shoppinglist&quot;&gt;OI Shopping List&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;To set a &lt;b&gt;shortcut to a specific list&lt;/b&gt;:&lt;br /&gt;
+1) Long-press on an empty space on home screen.&lt;br /&gt;
+2) Select &quot;Shortcuts&quot;.&lt;br /&gt;
+3) Select &quot;OI Shopping List&quot;.&lt;br /&gt;
+4) Select the list you want to link to.&lt;/p&gt;
+&lt;p&gt;To set a &lt;b&gt;generic shortcut&lt;/b&gt; to OI Shopping List:&lt;br /&gt;
+1) Open the slider with all applications.&lt;br /&gt;
+2) Press and hold the &quot;OI Shopping List&quot; icon.&lt;br /&gt;
+3) While holding the icon, move it to an empty space on home screen.&lt;br /&gt;
+  - OR -&lt;br /&gt;
+1) Long-press on an empty space on home screen.&lt;br /&gt;
+2) Select &quot;Shortcuts&quot;.&lt;br /&gt;
+3) Select &quot;Applications&quot;.&lt;br /&gt;
+4) Select &quot;OI Shopping List&quot;.&lt;/p&gt;
+&lt;p&gt;Note: The generic shortcut always opens the last list used with the default setting in OI Shopping List. To check the settings:&lt;br /&gt;
+1) In OI Shopping List, press Menu &amp;gt; Settings &amp;gt; Advanced settings.&lt;br /&gt;
+2) Make sure &quot;Load last list used&quot; is checked.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 27 Jun 2010 08:18:54 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">708 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>OI Safe can not find oisafe.xml on the SD card</title>
+    <link>http://caique.arvixe.com/~oi/node/888</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;p&gt;Copy oisafe.xml from /mnt/sdcard-ext/ or /mnt/sdcard2/ to /mnt/sdcard/ so that OI Safe can find the file.&lt;/p&gt;
+&lt;h2&gt;More information&lt;/h2&gt;
+&lt;p&gt;Certain devices have one SD card folder in internal memory and one SD card folder for the actual SD card. OI Safe looks for the backup file at &quot;/mnt/sdcard/oisafe.xml&quot; which is the location of the internal SD card. The path of the external SD card is slightly different: &quot;/mnt/sdcard-ext/oisafe.xml&quot; (notice the &quot;-ext&quot; after &quot;sdcard&quot;) or &quot;/mnt/sdcard2/&quot;, so in order for OI Safe to find the file, it first has to be copied from the external SD card to the internal SD card. The file can be copied using e.g. &lt;a href=&quot;http://openintents.org/en/filemanager&quot;&gt;OI File Manager&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This applies to the following devices:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Motorola Bionic: uses &quot;/mnt/sdcard-ext/&quot;&lt;/li&gt;
+&lt;li&gt;Dell Streak 7: uses &quot;/mnt/sdcard2/&quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 13 Sep 2011 04:13:41 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">888 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>I am getting the error message: &quot;Backup failed: /sdcard/oisafe.xml&quot;</title>
+    <link>http://caique.arvixe.com/~oi/node/750</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;Solution:&lt;/h2&gt;
+&lt;p&gt;Please re-install the latest version of OI Safe manually from here:&lt;br /&gt;
+(&lt;b&gt;without&lt;/b&gt; first un-installing)&lt;br /&gt;&lt;a href=&quot;http://code.google.com/p/openintents/downloads/list?q=oi+safe&quot;&gt;http://code.google.com/p/openintents/downloads/list?q=oi+safe&lt;/a&gt;&lt;/p&gt;
+&lt;!--break--&gt;&lt;h2&gt;Why does this problem occur?&lt;/h2&gt;
+&lt;p&gt;The problem occurs after a system update that introduces new permissions to access the SD card. In the previous system these permissions were not necessary, and therefore not granted. The applications need to be reinstalled in order to be granted permissions to access the SD card.&lt;/p&gt;
+&lt;h2&gt;If I have passwords that haven&#039;t been backed up yet, will I lose those when I uninstall and reinstall?&lt;/h2&gt;
+&lt;p&gt;From Market you can only install a newer version, but manually you can install the same version on top of the existing version. This should do the trick, and you should not loose the data under normal circumstances. Just don&#039;t uninstall - simply install on top of the existing installation.&lt;/p&gt;
+&lt;p&gt;In any case, please write the most important passwords on a piece of paper before you proceed, just to be on the safe side.&lt;/p&gt;
+&lt;h2&gt;What is the error message in other languages?&lt;/h2&gt;
+&lt;p&gt;The German error message is:&lt;br /&gt;
+&quot;Sicherungskopie erstellen fehlgeschlagen: /sdcard/oisafe.xml&quot;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 04 Sep 2010 14:50:34 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">750 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How can I enter prices for various stores?</title>
+    <link>http://caique.arvixe.com/~oi/node/890</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/shoppinglist&quot;&gt;OI Shopping List&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;p&gt;Select menu &amp;gt; settings &amp;gt; advanced settings &amp;gt; track per-store prices.&lt;br /&gt;
+Then long-press and item and select &quot;Stores...&quot; to add stores and enter aisle and price.&lt;br /&gt;
+The list will show the cheapest price entered.&lt;/p&gt;
+&lt;!--break--&gt;&lt;h2&gt;More information&lt;/h2&gt;
+&lt;p&gt;The one thing it does do now: if &quot;track per-store prices&quot; is enabled in preferences, you can enter a different price for each store. The cheapest one shows in the item list. In the item stores dialog, the price input is the rightmost one on each row. The other one is for aisle, which currently doesn&#039;t do much.&lt;/p&gt;
+&lt;p&gt;Long-press on a store name to rename or delete a store.&lt;/p&gt;
+&lt;p&gt;Currently the functionality is limited, but we want to extend this in the future, based also on users&#039; feedback and wishes.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 27 Sep 2011 20:15:24 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">890 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>I upgraded to the latest version and now I get a database error</title>
+    <link>http://caique.arvixe.com/~oi/node/659</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;If you get this error after upgrading from an older version of Password Safe (predecessor of OI Safe), install the older version again, export your passwords, deinstall and install the newer version, and import your passwords.&lt;/p&gt;
+&lt;p&gt;You can find old versions of Android Password Safe here:&lt;br /&gt;&lt;a href=&quot;http://code.google.com/p/android-passwordsafe/downloads/list?can=2&amp;amp;q=apk&quot;&gt;http://code.google.com/p/android-passwordsafe/downloads/list?can=2&amp;amp;q=apk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Old versions of OI Safe are here:&lt;br /&gt;&lt;a href=&quot;http://code.google.com/p/openintents/downloads/list?can=1&amp;amp;q=oi+safe&quot;&gt;http://code.google.com/p/openintents/downloads/list?can=1&amp;amp;q=oi+safe&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 22 May 2010 23:14:55 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">659 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>After encrypting and decrypting images, their thumbnails are broken</title>
+    <link>http://caique.arvixe.com/~oi/node/780</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/node/231&quot;&gt;Obscura&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Delete the /sdcard/DCIM/.thumbnails folder on your SD card, so that all thumbnails are recreated properly.&lt;/p&gt;
+&lt;!--break--&gt;&lt;p&gt;&lt;b&gt;Description of the problem:&lt;/b&gt;&lt;br /&gt;
+The pictures are intact if viewed in the filmstrip mode but the thumbnails are ruined.&lt;br /&gt;
+Also, new pictures taken or downloaded are not affected by this problem. It happens after some photos are made private using Obscura, and made public again. Also, removing the SD card and reinserting it does not help.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Solution:&lt;/b&gt;&lt;br /&gt;
+* On your SD card, rename the folder /sdcard/DCIM/.thumbnails into something else (e.g. .thumbnails2) or delete it.&lt;br /&gt;
+* Then restart Gallery and wait - optionally exit it again and start it again.&lt;/p&gt;
+&lt;p&gt;All thumbnails should be recreated.&lt;/p&gt;
+&lt;p&gt;You can use OI File Manager to access your SD card to delete / rename the folder mentioned above. Be careful not to delete by accident your true photos (that is why rename is safer).&lt;/p&gt;
+&lt;p&gt;The .thumbnail folder is created by Android and it contains all the thumbnails (small images) of your pictures. If everything works, the .thumbnails2 folder can be deleted, as it is no longer required.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Fri, 29 Oct 2010 18:45:30 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">780 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>Which shortcuts can I use?</title>
+    <link>http://caique.arvixe.com/~oi/node/902</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/countdown&quot;&gt;OI Countdown&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/~oi/filemanager&quot;&gt;OI File Manager&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/notepad&quot;&gt;OI Notepad&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/shoppinglist&quot;&gt;OI Shopping List&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;If you connect a hardware keyboard to your device, the following shortcuts are available. They are also accessible by pressing MENU + the letter.&lt;/p&gt;
+&lt;!--break--&gt;&lt;h3&gt;OI NotePad&lt;/h3&gt;
+&lt;p&gt;CTRL + S - Save&lt;br /&gt;
+CTRL + W - Save As&lt;br /&gt;
+CTRL + P - Preferences/Settings&lt;br /&gt;
+CTRL + R - Revert&lt;br /&gt;
+CTRL + E - Encrypt/Unencrypt&lt;br /&gt;
+CTRL + I - Import&lt;br /&gt;
+CTRL + T - Theme&lt;/p&gt;
+&lt;h3&gt;OI Countdown&lt;/h3&gt;
+&lt;p&gt;CTRL + P - Preferences/Settings&lt;br /&gt;
+CTRL + C - Change Countdown Mode&lt;br /&gt;
+CTRL + D - Pick Ringtone&lt;br /&gt;
+CTRL + S - Set Automation&lt;/p&gt;
+&lt;h3&gt;OI File Manager&lt;/h3&gt;
+&lt;p&gt;CTRL + P - Preferences/Settings&lt;br /&gt;
+CTRL + S - Include/Exclude Media Scan&lt;br /&gt;
+CTRL + F - New folder&lt;br /&gt;
+CTRL + M - Multi-select&lt;/p&gt;
+&lt;h3&gt;OI Safe&lt;/h3&gt;
+&lt;p&gt;CTRL + L - Lock Category Index&lt;br /&gt;
+CTRL + E - Edit Category Index&lt;br /&gt;
+CTRL + A - Add Category Index&lt;/p&gt;
+&lt;h3&gt;OI Shopping List&lt;/h3&gt;
+&lt;p&gt;CTRL + E - Edit Item&lt;br /&gt;
+CTRL + M - Mark Item&lt;br /&gt;
+CTRL + S - Item Stores&lt;br /&gt;
+CTRL + R - Remove Item&lt;br /&gt;
+CTRL + C - Copy Item&lt;br /&gt;
+CTRL + D - Delete Item&lt;br /&gt;
+CTRL + L - Move Item&lt;/p&gt;
+&lt;p&gt;CTRL + N - New List&lt;br /&gt;
+CTRL + C - Clean Up List&lt;br /&gt;
+CTRL + P - Preferences&lt;br /&gt;
+CTRL + R - Rename List&lt;br /&gt;
+CTRL + T - Theme&lt;br /&gt;
+CTRL + S - Send&lt;br /&gt;
+CTRL + M - Mark all items&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 08 Jan 2012 12:00:59 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">902 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How do I send a note?</title>
+    <link>http://caique.arvixe.com/~oi/node/666</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/notepad&quot;&gt;OI Notepad&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Long-click on a note in the list of notes. This opens a context menu with the &quot;Send&quot; command.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sun, 23 May 2010 08:06:38 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">666 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How to rename or delete a category?</title>
+    <link>http://caique.arvixe.com/~oi/node/717</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/safe&quot;&gt;OI Safe&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Long press on the category and select &quot;rename&quot; or &quot;delete&quot; from the context menu.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 13 Jul 2010 12:08:15 +0000</pubDate>
+ <dc:creator>friedger</dc:creator>
+ <guid isPermaLink="false">717 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  <item>
+    <title>How do I add tags to the notes?</title>
+    <link>http://caique.arvixe.com/~oi/node/753</link>
+    <description>&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-field-faq-application field-type-node-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Application:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/~oi/notepad&quot;&gt;OI Notepad&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h2&gt;Solution:&lt;/h2&gt;
+&lt;p&gt;Long-click on a note in the list of notes. This opens a context menu with the &quot;Edit tags&quot; command.&lt;/p&gt;
+&lt;!--break--&gt;&lt;h2&gt;Can you organize notes in folders?&lt;/h2&gt;
+&lt;p&gt;Once you have added tags to your notes, a selection field will appear at the top of the list of notes so that you can select notes with a specific tag. (You may have to exit OI Notepad with the back button and launch it again for the selection box to appear).&lt;br /&gt;
+While viewing notes with a specific tag, adding a new note will automatically add this tag to the note.&lt;br /&gt;
+Select &quot;All notes&quot; to view all notes again.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 04 Sep 2010 16:29:52 +0000</pubDate>
+ <dc:creator>peli</dc:creator>
+ <guid isPermaLink="false">753 at http://caique.arvixe.com/~oi</guid>
+  </item>
+  </channel>
+</rss>
