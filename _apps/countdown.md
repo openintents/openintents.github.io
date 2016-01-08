@@ -2,6 +2,7 @@
 title: OI Countdown
 ref: countdown
 teaser: Notifies you after a specified amount of time
+redirect_from: /en/countdown/
 ---
 Launch arbitrary applications or shortcut at the end of a countdown.
 

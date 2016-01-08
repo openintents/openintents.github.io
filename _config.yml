@@ -68,6 +68,8 @@ exclude:
     - LICENSE
     - README.md
 
+gems:
+    - jekyll-redirect-from
 
 #
 #       ____       ____            ____ 

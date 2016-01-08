@@ -1,0 +1,2 @@
+gem 'jekyll-redirect-from'
+

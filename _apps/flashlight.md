@@ -2,6 +2,7 @@
 title: OI Flashlight
 ref: flashlight
 teaser: The OpenIntents Flashlight for Android helps you find your way in the dark.
+redirect_from: /en/flashlight/
 ---
 Currently, Open Intents Flashlight supports the following functions:
 
