@@ -4,7 +4,8 @@
   {% for spec in site.intent_specs %}
   "{{spec.action}}": {
     "title":"{{ spec.title | xml_escape}}",
-    "description": "{{ spec.content | strip | strip_newlines | strip_html | xml_escape | truncate: 30}}",
+    "action":"{{spec.action}}"
+    "body": "{{ spec.content | strip | strip_newlines | strip_html | xml_escape | truncate: 30}}",
     "pubDate": "{{ spec.date | date: "%a, %d %b %Y %H:%M:%S %z" }}",
     "link": "{{ spec.url | prepend: site.baseurl | prepend: site.url }}"
     },
