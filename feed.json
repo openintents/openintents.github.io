@@ -9,4 +9,5 @@
     "link": "{{ spec.url | prepend: site.baseurl | prepend: site.url }}"
     },
   {% endfor %}
+  "lastitem": "true"
 }
