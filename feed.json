@@ -1,0 +1,12 @@
+---
+---
+{
+  {% for spec in site.intent_specs %}
+  "{{spec.action}}": {
+    "title":"{{ spec.title | xml_escape }}",
+    "description": "{{ spec.content | xml_escape }}",
+    "pubDate": "{{ spec.date | date: "%a, %d %b %Y %H:%M:%S %z" }}",
+    "link"{{ spec.url | prepend: site.baseurl | prepend: site.url }}"
+    },
+  {% endfor %}
+}
