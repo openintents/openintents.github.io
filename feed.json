@@ -6,7 +6,7 @@
     "title":"{{ spec.title}}",
     "description": "{{ spec.content | strip| strip_newlines}}",
     "pubDate": "{{ spec.date | date: "%a, %d %b %Y %H:%M:%S %z" }}",
-    "link": "{{ spec.url | prepend: site.baseurl | prepend: site.url }}",
+    "link": "{{ spec.url | prepend: site.baseurl | prepend: site.url }}"
     },
   {% endfor %}
 }
