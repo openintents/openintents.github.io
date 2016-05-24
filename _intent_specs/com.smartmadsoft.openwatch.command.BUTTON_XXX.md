@@ -1,7 +1,8 @@
 ---
 title: Bluetooth button pressed
 action: com.smartmadsoft.openwatch.command.BUTTON_XXX
-component: broadcast
+component: receiver
+hide_use: true
 ---
 Intents that are broadcasted on button press by OpenWatch (MBW-100, MBW-150, MBW-200).
 
