@@ -12,6 +12,7 @@ extras:
     type: String
     var: connectorName
     description: name of a WebConnector
-component: broadcast
+component: receiver
+hide_use: true
 ---
 Send the URI of a sent text message as broadcast to notify Call Meter 3G that the message was sent with the given WebSMS Connector.
