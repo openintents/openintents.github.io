@@ -84,8 +84,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 			{% endunless %}
 			<h3>Apps Providing an Implementation</h3>
 			<ul>
-			{% for implementation in page.implementations %}
-			  <li><a href="{{implemenation.url}}">{{implementations.name}}</a></li>
+			{% for impl in page.implementations %}
+			  <li><a href="{{impl.url}}">{{impl.name}}</a></li>
 			{% endfor %}
 			</ul>
 			<p>
