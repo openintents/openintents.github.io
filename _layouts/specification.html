@@ -83,6 +83,11 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
             </pre>	
 			{% endunless %}
 			<h3>Apps Providing an Implementation</h3>
+			<ul>
+			{% for implementation in page.implementations %}
+			  <li><a href="{{implemenation.url}}">{{implementations.name}}</a></li>
+			{% endfor %}
+			</ul>
 			<p>
 			<a href="https://github.com/search?l=xml&q=%22{{page.action}}%22&type=Code&utf8=%E2%9C%93">Search on Github</a>
 			</p>
