@@ -69,7 +69,9 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }{% else %}
         startActivity(intent);
     }
-}{% endif %}</pre>				
+}{% endif %}</pre>	
+			{% endunless %}
+			{% unless page.hide_intent_filter %}
 			<h3>Example intent filter</h3>
 			<pre>
 &lt;{{page.component}} ...>
