@@ -26,7 +26,7 @@ permalink: "/intentsregistry/"
 
 <h3>Broadcast Intents</h3>
 <ul>
-    {% assign ordered_specs = site.intent_specs | where: "component", "broadcast" | sort: "title" %}
+    {% assign ordered_specs = site.intent_specs | where: "component", "receiver" | sort: "title" %}
     {% for spec in ordered_specs %}
     <li><a href="{{ site.url }}/broadcast/{{ spec.name | slugify  }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
     {% endfor %}
