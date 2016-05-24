@@ -72,12 +72,12 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }{% endif %}</pre>				
 			<h3>Example intent filter</h3>
 			<pre>
-&lt;activity ...>
+&lt;{{page.component}} ...>
     &lt;intent-filter>
         &lt;action android:name="{{page.action}}" />
         &lt;category android:name="android.intent.category.DEFAULT" />
     &lt;/intent-filter>
-&lt;/activity>            
+&lt;/{{page.component}}>            
             </pre>	
 			{% endunless %}
 			<h3>Apps Providing an Implementation</h3>
