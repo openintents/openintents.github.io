@@ -11,7 +11,7 @@ permalink: "/intentsregistry/"
 <ul>
     {% assign ordered_specs = site.intent_specs | where: "component", "activity" | sort: "title" %}
     {% for spec in ordered_specs %}
-    <li><a href="{{ site.url }}/action/{{ spec.action | slugify  }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
+    <li><a href="{{ site.url }}/action/{{ spec.action | slugify  }}/{{ spec.name }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
     {% endfor %}
 </ul>
 <a href="https://developer.android.com/guide/components/intents-common.html">Read also Google's documentation about common intents.</a>
@@ -20,7 +20,7 @@ permalink: "/intentsregistry/"
 <ul>
     {% assign ordered_specs = site.intent_specs | where: "component", "service" | sort: "title" %}
     {% for spec in ordered_specs %}
-    <li><a href="{{ site.url }}/service/{{ spec.name | slugify  }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
+    <li><a href="{{ site.url }}/service/{{ spec.name | slugify  }}/{{ spec.name }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
     {% endfor %}
 </ul>
 
@@ -28,6 +28,6 @@ permalink: "/intentsregistry/"
 <ul>
     {% assign ordered_specs = site.intent_specs | where: "component", "receiver" | sort: "title" %}
     {% for spec in ordered_specs %}
-    <li><a href="{{ site.url }}/broadcast/{{ spec.name | slugify  }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
+    <li><a href="{{ site.url }}/broadcast/{{ spec.name | slugify  }}/{{ spec.name }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
     {% endfor %}
 </ul>
