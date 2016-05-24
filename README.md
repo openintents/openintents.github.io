@@ -21,12 +21,13 @@ Property | Description
  `extras` | List of extras
  `out` | Description of the return value, uri and list of extras returned
  `link` | Link to a website that describes the intent protocol as well or the use of it
- `component` |  `activity` (default) or `broadcast`
+ `component` |  `activity` (default) or `service` or `receiver`
  `webintent` |  Url of the web intent equivalent to the Android intent
  `webwish` | Url of the web wish equivalent to the Android intent
  `ios` | Name and link to ios extension equivalent to the Android intent
  `author` | Author of the specification 
  `submitted` | Date when the specification was submitted to openintents.org
+ `hide_use` | flag to hide the auto-generated use section in the documentation
 
 Extras are defines with the following properties:
 
