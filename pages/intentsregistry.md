@@ -15,3 +15,10 @@ permalink: "/intentsregistry/"
 </ul>
 <a href="https://developer.android.com/guide/components/intents-common.html">Read also Google's documentation about common intents.</a>
 
+<ul>
+    {% assign ordered_specs = site.intent_specs | where: "component", "service" | sort: "title" %}
+    {% for spec in ordered_specs %}
+    <li><a href="{{ site.url }}/service/{{ spec.path | slugify  }}">{{ spec.title }}</a> <br/><small>({{spec.action}})</small></li>
+    {% endfor %}
+</ul>
+
