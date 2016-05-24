@@ -27,9 +27,13 @@ Property | Description
  `ios` | Name and link to ios extension equivalent to the Android intent
  `author` | Author of the specification 
  `submitted` | Date when the specification was submitted to openintents.org
- `hide_use` | flag to hide the auto-generated use section in the documentation
+ `hide_use` | flag to hide the auto-generated use section in the documentation (should be true for `service` and `receiver`)
+ `hide_intent_filter` | flag to hide auto-generated intent filter example in the documentation
+ `permalink` | must be set by `service` and `receiver` intents as well as specializations of intents (see below)
+ `implemenations` | List of apps implementing the specification
+ `name` | Name of specialization of intent (should not be used by main specification)
 
-Extras are defines with the following properties:
+*Extras* are defines with the following properties:
 
 Property | Description
  --------| -------
@@ -39,6 +43,17 @@ Property | Description
  `sample` | Value that should be used as part of the documentation to launch the intent
  `var` | Java variable name that should be used as part of the documentation to handle the result value
 
+*Implementations* are defined with the following properties:
+
+Property | Description
+ --------| -------
+ `name` | Name of the app
+ `url` | Url to app store or website of app
+
+### Specializations of intent specs
+Intent specifications are defined by its intent action. If there are intents that use e.g. different schema and have different behaviour these intent can be documented separately.
+
+The path is action/[action-name]/[specialization-name], e.g. http://www.openintents.org/action/android-intent-action-view/x11-server
 
 ## OI Apps
 See https://openintents.org/download for all apps and more.
