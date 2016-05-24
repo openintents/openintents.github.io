@@ -53,7 +53,9 @@ Property | Description
 ### Specializations of intent specs
 Intent specifications are defined by its intent action. If there are intents that use e.g. different schema and have different behaviour these intent can be documented separately.
 
-The path is action/[action-name]/[specialization-name], e.g. http://www.openintents.org/action/android-intent-action-view/x11-server
+The path is action/[action]/[name], e.g. http://www.openintents.org/action/android-intent-action-view/x11-server
+
+The name of the file should match the name property. Name clashes with the main specification must be avoided.
 
 ## OI Apps
 See https://openintents.org/download for all apps and more.
