@@ -5,6 +5,7 @@ title: "Contributing"
 subheadline: "OpenIntents is a community effort"
 teaser: "Small or big, everything will help."
 permalink: "/contribute/"
+redirect_from: /en/contribute/
 ---
 1. Send pull requests with new Intents specifications and create issues for existing ones.
 2. Explain Android developers about the advantages of the intent system.
