@@ -7,7 +7,7 @@ categories: Projects
 This is a sad day in the open Android ecosystem. On 20 August 2015, the team of [One Platform Foundation](http://onepf.org)
 announced that they are not able to continue the development of the AppDF project.
 
-Started at the barcamp of Droidcon London 2010 by Mark Murphy <sup id="a1">[1](#f1)</sup>, there was a discussion about ownership of
+Started at the barcamp of droidconLondon 2010 by Mark Murphy <sup id="a1">[1](#f1)</sup>, there was a discussion about ownership of
 app meta data, there was a [mailing list ](https://groups.google.com/forum/?hl=en#!forum/appfeed) and finally, there was the
 [AppDF project](https://github.com/onepf/AppDF) to standardize app meta data, mainly driven by Yandex and onepf.org.
 

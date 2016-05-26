@@ -6,16 +6,23 @@
 			our apps, and the open Android ecosystem.
 		</p>
 		<p>
-			Everything is hosted on <a href="http://github.com/openintents/openintents.github.io">github.com</a>.
+			Everything is hosted on <a href="https://github.com/openintents/openintents.github.io">github.com</a>.
 			Feel free to improve the content.
 		</p>
 		<p>
-			OpenIntents raises money through <a href="http://www.openintents.org/contribute">donations</a>
+			OpenIntents raises money through <a href="{{ site.url }}/contribute">donations</a>
 			and ads in this blog section.
 		</p>
-	</div>
+		<h3>Posts by Category</h3>
+		<ul>
+			{% for category in site.data.archives.categories %}
+				<li><a href="{{site.url}}/blog/{{category | downcase }}">{{category}}</a></li>
+			{% endfor %}
+	  </ul>
 
-<!--
+</div>
+
+  <!--
   <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="">
 
 

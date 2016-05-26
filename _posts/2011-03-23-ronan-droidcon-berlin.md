@@ -1,6 +1,6 @@
 ---
 title: Ronan Schwarz speaks about AOSP
-subheadline: Droidcon Berlin
+subheadline: droidcon Berlin 2011
 categories: Events
 ---
 

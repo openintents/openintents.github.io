@@ -1,6 +1,6 @@
 ---
 title: Friedger Müffke on (German) Radio and Television
-subheadline: Droidcon Berlin
+subheadline: droidcon Berlin 2010
 categories: Events
 ---
 

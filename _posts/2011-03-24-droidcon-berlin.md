@@ -1,6 +1,6 @@
 ---
 title: ! 'Hidden Treasures: Open Android Apps'
-subheadline: Droidcon Berlin
+subheadline: droidcon Berlin 2011
 categories: Events
 ---
 Friedger Müffke speaks at droidcon in Berlin. He presents the findings about

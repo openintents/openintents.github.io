@@ -1,0 +1,38 @@
+---
+layout: default
+format: blog-index
+# Don't index these pages dear Google.
+noindex: true
+---
+{% assign category = page.category %}
+<div class="row">
+	<div class="medium-8 columns t30 blog-index">
+    <dl class="accordion" data-accordion>
+			{% assign counter = 1 %}
+			{% for post in site.categories.[category] %}
+			<dd>
+        <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
+			</dd>
+			{% assign counter=counter | plus:1 %}
+			{% endfor %}
+      <dd class="text-right"><a href="{{ site.url }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></dd>
+		</dl>
+
+    </ul>
+  </div>
+
+	<div class="medium-4 columns t30">
+		{% include sidebar.html %}
+	</div><!-- /.medium-5.columns -->
+</div><!-- /.row -->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- OI Blog -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2917856487596141"
+     data-ad-slot="7477188524"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>

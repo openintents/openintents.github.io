@@ -1,6 +1,6 @@
 ---
-title: Google Workshop at International Congress of Youth Enterpreneurship
-subheadline: Sharing knowledge by Friedger Müffke
+title: Google Workshop
+subheadline: International Congress of Youth Enterpreneurship
 categories: Events
 ---
 
