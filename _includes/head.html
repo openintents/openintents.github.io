@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/styles_feeling_responsive.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="{{ site.url }}/assets/js/modernizr.min.js"></script>
-	
+
   <script>
     WebFontConfig = {
       google: { families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ] }
@@ -31,7 +31,7 @@
   {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.teaser %}<meta name="description" content="{{ page.teaser | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
-	
+
 	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
 
 	{% include favicon %}
@@ -55,4 +55,14 @@
 	{% unless page.style == NULL %}
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
+
+	{% if page.type== "posts" %}
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2917856487596141",
+    enable_page_level_ads: true
+  });
+  </script>
+  {% endif %}
 </head>

@@ -21,10 +21,14 @@
   - title: "more.."
     url: "/download/"
 
+- title: "Blog"
+  url: "/blog/"
+  side: right
+  
 - title: "History"
   url: "/history/"
   side: right
-  
+
 - title: Contribute
   url: "/contribute/"
   side: right
