@@ -8,18 +8,19 @@ with some solutions.
 
 ## Click events become long click events
 This is an due to the way Espresso implements click events.
-By providing `pressBack()` as rollback event to the click event most issues could be resolved.
+By providing `pressBack()` as rollback event to the click event most issues could be resolved. As described in http://stackoverflow.com/a/35254071/243599
 
 ## There is no test method to verify an activity result
-For this we created a `ActivityResultTestRule` that provides access to the activity result as well some method to verify the code
-and the result data. For the result data the Espresso-Intents matchers are also useful.
+For this we created a [`ActivityResultTestRule`](https://github.com/openintents/filemanager/blob/master/FileManager/tests/java/org/openintents/filemanager/test/ActivityResultTestRule.java) that provides access to the activity result as well as some method to verify the code and the result data. For the result data the Espresso-Intents matchers are also useful. 
+The main inspiration was taken from
+http://stackoverflow.com/a/5759318/243599
 
 ## Things in the background are not reported to the tests (add IdleResources)
 The `DirectoryScanner` was adjusted to report back to `IdleResourceListener` when it has finshed.
 
 ## Enter key event fails when activity is finishing
-Espresso sends an down and up event. The up event fails when the activity finshed inbetween.
-As a solution a down event was created.
+Espresso sends an down and up event when executing `click()`. The up event fails when the activity was finshed inbetween.
+As a solution a [down event action](https://github.com/openintents/filemanager/blob/master/FileManager/tests/java/org/openintents/filemanager/test/TestSaveAsActivity.java#L71) was created.
 
 ## UI animator needs a manifest for androidTest source set
 UI animator needs SDK 18, hence we need to add the following line to the Android Manifest used for `androidTest:
@@ -43,5 +44,5 @@ During executing the instrumation is waiting for activities of the application, 
 Using the same process name does not make any difference.
 
 ## Sending keys (like enter key) while soft keyboard is open fails
-Typing test via Espresso might open the soft keyboard. There after it is not possible to send a key event
-because the soft keyboard is overlaying the window. Adding `closeSoftKeyboard()` helped here.
+Typing text via Espresso might open the soft keyboard and hence covering the activity. Thereafter, it is not possible to send a key event
+because the soft keyboard is overlaying the window, resulting in an `SecurityException` with `Injecting to another application requires INJECT_EVENTS permission`. Adding `closeSoftKeyboard()` helped here.
