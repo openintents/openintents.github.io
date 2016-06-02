@@ -106,6 +106,7 @@ defaults:
       comments: false
       author: "openintents"
       permalink: blog/:year/:month/:day/:title.html
+      sidebar: "right"
   -
     scope:
       path: ""
