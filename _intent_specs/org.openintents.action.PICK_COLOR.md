@@ -4,16 +4,16 @@ action: org.openintents.action.PICK_COLOR
 extras:
   -
     name: org.openintents.extra.COLOR
-    type: String
+    type: int
     var: color
-    description: default colour or previously selected color
+    description: default colour or previously selected color, in the form 0xAARRGGBB
 out:
   extras:
     -
       name: org.openintents.extra.COLOR
-      type: String
+      type: int
       var: color
-      description: default colour or previously selected color
+      description: default colour or previously selected color, in the form 0xAARRGGBB
 ---
 Pick a color using a color picker dialog.
 
