@@ -2,6 +2,7 @@
 title: Google and the Open Android Ecosystem
 subheadline: Examples
 categories: opinion
+redirect_from: /blog/2016/06/02/Google-Open-Android-Ecosystem.md
 ---
 At the local Google I/O extended event we had a discussion about policies for
 mobile developers and the [formal investigations](http://ec.europa.eu/competition/elojade/isef/case_details.cfm?proc_code=1_40099)
