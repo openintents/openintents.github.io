@@ -44,7 +44,7 @@ Google's launcher has removed support for the Android Quick Search Box in favour
 ~
 
 # Fact #-12
-Efforts to standardize app meta data to simplfy the use of different Android app stores has been abandonded in 2015 [3].
+Efforts to standardize app meta data to simplfy the use of different Android app stores has been [abandonded in 2015][3].
 
 # Fact #-13
 Devices with dual booting Android and Windows (like Acer "Duet" in 2014) were postponed indefinitely due to alleged pressure from OS makers.
