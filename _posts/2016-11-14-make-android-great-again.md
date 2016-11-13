@@ -5,8 +5,8 @@ categories: Opinion
 redirect_from: /blog/2016/11/14/Make-Android-Great-Again.html
 ---
 
-Google has [responded][1] to the [letter of objections][2] of the EU commission. Some developers have published they supportive
-opinion under #saveAndroid. As part of Google's campaign a [list of Android facts](https://www.android.com/everyone/facts/) 
+Google has [responded][1] to the [letter of objections][2] of the EU commission. Some developers have published their supportive
+opinion under hash tag [#saveAndroid](https://twitter.com/hashtag/SaveAndroid). As part of Google's campaign a [list of Android facts](https://www.android.com/everyone/facts/) 
 was published. So we wanted to write down some more (opinionated) facts below. If you think Android shoule have a better  ecosystem feel free to leave a comment or suggest more facts via pull requests.
 
 # Fact #-01
