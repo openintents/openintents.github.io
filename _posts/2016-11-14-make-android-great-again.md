@@ -2,6 +2,7 @@
 title: Make Android Great Again
 subheadline: Some more facts
 categories: Opinion
+redirect_from: /blog/2016/11/14/Make-Android-Great-Again.html
 ---
 
 Google has [responded][1] to the letter of objections of the EU commission. Some developers have published they supportive
