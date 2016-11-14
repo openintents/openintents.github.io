@@ -7,13 +7,13 @@ redirect_from: /blog/2016/11/14/Make-Android-Great-Again.html
 
 Google has [responded][1] to the [letter of objections][2] of the EU commission. Some developers have published their supportive
 opinion under hash tag [#saveAndroid](https://twitter.com/hashtag/SaveAndroid). As part of Google's campaign a [list of Android facts](https://www.android.com/everyone/facts/) 
-was published. So we wanted to write down some more (opinionated) facts below. If you think Android should have a better  ecosystem feel free to leave a comment or suggest more facts via pull requests.
+was published. So we wanted to write down some more (opinionated) facts below and start thinking about how to do more things. If you think Android should have a better ecosystem feel free to leave a comment or suggest more facts via pull requests.
 
 # Fact #-01
 Unlike other unix-based operating systems, Android is not governed openly, but by Google only.
 
 # Fact #-02
-~
+Since the first version, [it is not possible][3] to enter a localized (with comma as separator) decimal number via hardware keyboard.
 
 # Fact #-03
 In the early days, Google has produced new Android versions in collaboration with partners of the Open Handset Alliance. 
@@ -44,7 +44,7 @@ Google's launcher has removed support for the Android Quick Search Box in favour
 ~
 
 # Fact #-12
-Efforts to standardize app meta data to simplfy the use of different Android app stores has been [abandonded in 2015][3].
+Efforts to standardize app meta data to simplfy the use of different Android app stores has been [abandonded in 2015][4].
 
 # Fact #-13
 Devices with dual booting Android and Windows (like Acer "Duet" in 2014) were postponed indefinitely due to alleged pressure from OS makers.
@@ -91,4 +91,5 @@ like push messaging service Parse.
 
 [1]: https://blog.google/topics/google-europe/android-choice-competition-response-europe/
 [2]: http://ec.europa.eu/competition/elojade/isef/case_details.cfm?proc_code=1_40099
-[3]: https://github.com/onepf/AppDF
+[3]: https://code.google.com/p/android/issues/detail?id=2626
+[4]: https://github.com/onepf/AppDF
