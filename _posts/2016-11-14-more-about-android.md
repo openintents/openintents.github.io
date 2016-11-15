@@ -1,8 +1,9 @@
 ---
-title: Make Android Great Again
+title: What we can do more about Android 
 subheadline: Some more facts
 categories: Opinion
 redirect_from: /blog/2016/11/14/Make-Android-Great-Again.html
+redirect_from: /blog/2016/11/14/make-android-great-again.html
 ---
 
 Google has [responded][1] to the [letter of objections][2] of the EU commission. Some developers have published their supportive
@@ -47,11 +48,10 @@ Google's launcher has removed support for the Android Quick Search Box in favour
 Efforts to standardize app meta data to simplfy the use of different Android app stores has been [abandonded in 2015][4].
 
 # Fact #-13
-Devices with dual booting Android and Windows (like Acer "Duet" in 2014) were postponed indefinitely due to alleged pressure from OS makers.
+In 2014, devices with dual booting Android and Windows (like Acer "Duet") were postponed indefinitely due to alleged pressure from OS makers.
 
 # Fact #-14
-Being preinstalled on Android devices like Google Play, Google Search, Google Foto is a significant market advantage 
-in the competitive app market.
+Being preinstalled on Android devices like Google Play, Google Search, Google Foto is a significant market advantage in the competitive app market.
 
 # Fact #-15
 Information about supported Android "intents" provided by apps in Google Play store are not publicly available.
@@ -83,8 +83,7 @@ Parts of the Android platform, like Android Wear and Android Auto use closed fea
 Google Mobile Services.
 
 # Fact #-23
-With Google pushing their Android developer services, third party tool makers have stopped their products, 
-like push messaging service Parse.
+Google integrates their developer services into the dominant Android IDE. 
 
 
 
