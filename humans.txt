@@ -6,7 +6,8 @@
 
 # TEAM
 
-
+Name: Friedger Müffke
+Twitter: https://twitter.com/fmdroid
 
 # THANKS
 
@@ -22,6 +23,3 @@ Last Updated: {{ site.time | date:"%Y/%m/%d" }}
 Standards: HTML5, CSS3
 Software: Sublime Text, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
 Components: Modernizr, jQuery, Backstretch.js, Reveal, Foundation Framework
-
-
-
