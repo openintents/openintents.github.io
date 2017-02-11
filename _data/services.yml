@@ -1,5 +1,10 @@
 - menu_name: "Services"
 
+- name: "Privacy for Apps"
+  url: "/privacy-for-apps"
+  class: "privacy"
+  title: "Privacy for mobile Apps"
+
 - name: "Privacy"
   url: "http://www.google.com/policies/privacy/partners/"
   class: "privacy"
@@ -15,7 +20,7 @@
   class: "rss-link"
   title: "Subscribe to RSS"
 
-- name: "sitemap.xml"
+- name: "Sitemap"
   url: "/sitemap.xml"
   class: "sitemap-link"
   title: "Sitemap for Google Webmastertools"
