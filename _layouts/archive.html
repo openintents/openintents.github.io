@@ -9,13 +9,13 @@ noindex: true
 	<div class="medium-8 columns t30 blog-index">
     <dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
-			{% for post in site.categories.[category] %}
+			{% for post in site.categories[category] %}
 			<dd>
-        <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
+        <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
 			</dd>
 			{% assign counter=counter | plus:1 %}
 			{% endfor %}
-      <dd class="text-right"><a href="{{ site.url }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></dd>
+      <dd class="text-right"><a href="{{ site.url }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></dd>
 		</dl>
 
     </ul>

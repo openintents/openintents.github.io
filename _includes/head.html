@@ -56,8 +56,8 @@
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
 	{% seo %}
-	{% if page.collection == 'apps'}
-	<script type="application/ld+json">
+	{% if page.collection == 'apps' %}
+	  <script type="application/ld+json">
         {
           "@context": "http://schema.org",
           "@type": "MobileApplication",
@@ -66,13 +66,13 @@
           {% if page.software_version %}"softwareVersion": "{{ page.software_version }}",{% endif %}
           {% if page.application_category %}"applicationCategory": "{{ page.application_category }}",{% endif %}
           "operatingSystem": "Android",
-	  {% if page.image.thumb %}"image": "{{ site.url }}/images/{{ page.image.thumb }}",{% endif %}
+	        {% if page.image.thumb %}"image": "{{ site.url }}/images/{{ page.image.thumb }}",{% endif %}
           "offers": {
             "@type": "Offer",
             "price": "0.00",
             "priceCurrency": "EUR"
           }
         }
-        </script>
+    </script>
 	{% endif %}
 </head>

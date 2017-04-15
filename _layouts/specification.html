@@ -8,9 +8,9 @@ format: post
 			<header>
 				{% if page.image.title %}
 				<figure>
-					<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}" itemprop="image">
+					<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
 
-					{% if page.image.caption_url && page.image.caption %}
+					{% if page.image.caption_url and page.image.caption %}
 					<figcaption class="text-right">
 						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 					</figcaption>
@@ -39,14 +39,14 @@ format: post
 			<span itemprop="articleSection">
 			{{ content }}
 			</span>
-             
-			 {% if {{page.constant | slice: 0, 8}} == "android." %}
+       {% capture package_start %}{{ page.constant | slice: 0, 8 }}{% endcapture %}
+			 {% if package_start == "android." %}
 			 <a href="{{page.link}}"> Read also the Android documentation</a>
-			 {% elsif {{page.link}} %}
+			 {% elsif page.link %}
 			 <a href="{{page.link}}"> See related web site</a>
 			 {% else %}
 			 {% endif %}
-			 {% unless page.hide_use %}			 
+			 {% unless page.hide_use %}
 			<h3>Use</h3>
 			{% assign words = page.title | split: ' ' %}
 			<pre>
@@ -61,15 +61,15 @@ public void start{% for word in words %}{{ word | capitalize }}{% endfor %}({% f
 }
 
 @Override
-protected void onActivityResult(int requestCode, int resultCode, Intent data) { 
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if (requestCode == REQUEST_CODE && resultCode == RESULT_OK) { {% for extra in page.out.extras %}
-      {{extra.type}} {{extra.var}} = data.get{{extra.type | capitalize }}Extra({{extra.name}});{% endfor %} 
+      {{extra.type}} {{extra.var}} = data.get{{extra.type | capitalize }}Extra({{extra.name}});{% endfor %}
       // handle result
     }
 }{% else %}
         startActivity(intent);
     }
-}{% endif %}</pre>	
+}{% endif %}</pre>
 			{% endunless %}
 			{% unless page.hide_intent_filter %}
 			<h3>Example intent filter</h3>
@@ -79,8 +79,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         &lt;action android:name="{{page.action}}" />
         &lt;category android:name="android.intent.category.DEFAULT" />
     &lt;/intent-filter>
-&lt;/{{page.component}}>            
-            </pre>	
+&lt;/{{page.component}}>
+            </pre>
 			{% endunless %}
 			<h3>Apps Providing an Implementation</h3>
 			<ul>

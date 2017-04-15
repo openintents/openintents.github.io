@@ -14,9 +14,9 @@ format: post
 				{% if page.image.hide %}
 				{% else %}
 				<figure>
-					<img src="https://raw.githubusercontent.com/openintents/{{ github }}/master/promotion/icons/ic_launcher_{{github}}_512.png" width="125" alt="{{ page.title escape_once }}" itemprop="image">
-					
-					{% if page.image.caption_url && page.image.caption %}
+					<img src="https://raw.githubusercontent.com/openintents/{{ github }}/master/promotion/icons/ic_launcher_{{github}}_512.png" width="125" alt="{{ page.title | escape_once }}" itemprop="image">
+
+					{% if page.image.caption_url and page.image.caption %}
 					<figcaption class="text-right">
 						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 					</figcaption>
@@ -45,7 +45,7 @@ format: post
 			<span itemprop="articleSection">
 			{{ content }}
 			</span>
-			
+
 			{% if page.show_meta == true %}
 			{% include meta_information.html %}
 			{% endif %}
