@@ -1,3 +1,4 @@
+---
 title: Add icon to home screen
 action: com.android.launcher.action.INSTALL_SHORTCUT
 description: Installs an icon on the launcher's home screen
