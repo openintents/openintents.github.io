@@ -3,7 +3,7 @@ title: What we know about WebApks
 subheadline: Installing PWAs
 categories: opinion
 image:
-  title: unsplash-willie-fineberg-enclosing.jpg
+  title: willie-fineberg-57667.jpg
 ---
 The new HTML5 is called Progressive Web Apps (PWAs). They are web applications that also work on mobile,
 also when offline and also when one old browsers. If they are used often, the browser can suggest to
