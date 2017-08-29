@@ -1,3 +1,11 @@
+---
+title: What we know about WebApks
+subheadline: Installing PWAs
+categories: opinion
+image:
+  title: willie-fineberg-57667.jpg
+---
+
 # What we know about WebApks
 
 The new HTML5 is called Progressive Web Apps (PWAs). They are web applications that also work on mobile,
@@ -36,5 +44,3 @@ that Google has made the old way of "installing" PWAs (via bookmarks) less usabl
 now, have to wait for a WebApk API of Google Play Services. And even when this becomes available, 
 what should the other browsers do if they want support Android devices without Google experience? It looks like 
 the browsing experience of modern web apps has been moved by Google from the Android operating system into their Play services.
-
-![Walled Garden]({{ site.url }}/images/unsplash-willie-fineberg-enclosing.jpg)
