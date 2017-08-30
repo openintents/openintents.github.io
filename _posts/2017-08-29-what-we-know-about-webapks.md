@@ -40,4 +40,6 @@ Since Android 8, these other browsers have an even harder existance in regards t
 that Google has made the old way of "installing" PWAs (via bookmarks) less usable. The other browsers can't do much in this area
 now, have to wait for a WebApk API of Google Play Services. And even when this becomes available, 
 what should the other browsers do if they want support Android devices without Google experience? It looks like 
-the browsing experience of modern web apps has been moved by Google from the Android operating system into their Play services.
+the browsing experience of modern web apps has been moved by Google from the Android operating system into their Play services. And thinking about that for a while, this gives Google an advantage in regards to categorization and discovering PWAs, but that is a different story.
+
+
