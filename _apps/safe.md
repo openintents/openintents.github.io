@@ -10,4 +10,4 @@ You can export your passwords in a CSV file, or create an encrypted backup.
 - - -
 **OI Safe knowledge base**
 
-https://steemit.com/android/@friedger/oi-safe-export-backup
+[on steemit](https://steemit.com/created/oi-safe)
