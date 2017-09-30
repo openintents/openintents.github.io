@@ -10,4 +10,4 @@ You can export your passwords in a CSV file, or create an encrypted backup.
 - - -
 **OI Safe knowledge base**
 
-[on steemit](https://steemit.com/created/oi-safe)
+[on steemit](https://steemit.com/created/oi-safe) maintained by [@friedger](https://steemit.com/@friedger)
