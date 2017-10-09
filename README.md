@@ -18,6 +18,7 @@ Property | Description
  `action` | Action name as it has to be placed in the manifest (same as file name without .md)
  `constant` | Java constant that can be used in source code instead of a string, e.g. `android.content.Intent.ACTION_VIEW`
  `uri` | Description what the data uri should contain
+ `type` | Type of the data
  `extras` | List of extras
  `out` | Description of the return value, uri and list of extras returned
  `link` | Link to a website that describes the intent protocol as well or the use of it
