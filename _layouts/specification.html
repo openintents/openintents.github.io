@@ -40,7 +40,7 @@ format: post
 			{{ content }}
 			</span>
 			{% if page.type %}
-			<span>Related MIME type: {{page.type}}</span>
+			<span>Related MIME type: {% if page.typelink %}<a href="{{page.typelink}}">{{page.type}}</a>{% else %}{{page.type}}{% endif %}</span>
 			{% endif %}
        {% capture package_start %}{{ page.constant | slice: 0, 8 }}{% endcapture %}
 			 {% if package_start == "android." %}
@@ -80,7 +80,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 &lt;{{page.component}} ...>
     &lt;intent-filter>
         &lt;action android:name="{{page.action}}" />
-        &lt;category android:name="android.intent.category.DEFAULT" />
+        &lt;category android:name="android.intent.category.DEFAULT" />{% if page.type %}
+        &lt;data android:mimeType="{{page.type}}" />{% endif %}
     &lt;/intent-filter>
 &lt;/{{page.component}}>
             </pre>
