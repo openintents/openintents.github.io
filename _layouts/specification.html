@@ -39,6 +39,9 @@ format: post
 			<span itemprop="articleSection">
 			{{ content }}
 			</span>
+			{% if page.type %}
+			<span>Related MIME type: {{page.type}}</span>
+			{% endif %}
        {% capture package_start %}{{ page.constant | slice: 0, 8 }}{% endcapture %}
 			 {% if package_start == "android." %}
 			 <a href="{{page.link}}"> Read also the Android documentation</a>
