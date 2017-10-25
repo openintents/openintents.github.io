@@ -14,13 +14,13 @@ redirect_from: /en/contribute/
 5. Talk to app store providers like Google Play, Amazon, Yandex about the importance of dependency management.
 
 <h2>Write and Edit Intent Protocol Specifications</h2>
-The [README on Github](https://github.com/openintents/openintents.github.io) contains a detailed description 
+The [README on Github](https://github.com/openintents/openintents.github.io) contains a detailed description
 how the specification looks like and how to create new specifications.
 
 <h2>Donations</h2>
 To support the ongoing development of our project, we would gratefully welcome any amount for donation.
 
-#### <i class='fa fa-usd'></i> Donate in US dollar
+#### <i class='fa fa-usd' aria-hidden="true"></i> Donate in US dollar
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="4328757">
@@ -29,7 +29,7 @@ To support the ongoing development of our project, we would gratefully welcome a
 </form>
 
 
-#### <i class='fa fa-eur'></i> Donate in Euro 
+#### <i class='fa fa-eur' aria-hidden="true"></i> Donate in Euro
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="4328784">
@@ -37,7 +37,13 @@ To support the ongoing development of our project, we would gratefully welcome a
 <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-#### <i class='fa fa-btc'></i> Donate in Bitcoins 
+#### <i class='fa fa-money' aria-hidden="true"></i> Become a patreon
+Donate a regular amount via Liberapay
+<br/>
+<script src="https://liberapay.com/openintents/widgets/button.js"></script>
+<noscript><a href="https://liberapay.com/openintents/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+
+#### <i class='fa fa-btc' aria-hidden="true"></i> Donate in Bitcoins
 <a href="bitcoin:16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ?label=Donation OpenIntents">
 <img src="{{site.url}}/images/16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ.png" ></a>
 <p><a href="https://blockchain.info/address/16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ">16MJeiftw9LRuvqoSH18v16kYTeNx7wJSZ</a></p>
