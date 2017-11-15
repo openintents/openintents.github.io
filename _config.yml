@@ -68,11 +68,15 @@ exclude:
     - LICENSE
     - README.md
 
-gems:
-    - jekyll-redirect-from
-    - jekyll-seo-tag
-    - jekyll-paginate
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-paginate
 
+whitelist:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 #
 #       ____       ____            ____
