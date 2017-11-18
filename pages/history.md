@@ -6,6 +6,9 @@ subheadline: "OpenIntents History"
 teaser: "History and changelog of OpenIntents activities and site"
 permalink: "/history/"
 ---
+2017-11-18 // Version 2.1.0
+:    Add Brave and BasicAttentionToken partnership
+
 2015-05-31 // Version 2.0.0-pre-alpha
 :    First draft with feeling-responsive 1.2.1
 

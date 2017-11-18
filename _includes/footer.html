@@ -15,6 +15,7 @@
               {{ site.description }}
               <a href="{{ site.url }}/info/">{{ site.data.language.more }}</a>
             </p>
+            <a href="https://brave.com"><img class="shadow-black" src="{{site.url}}/images/brave_partner.gif"/></a>
           </div><!-- /.large-6.columns -->
 
 
@@ -24,7 +25,7 @@
                 <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-              
+
               <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
                 {% if service_item.url contains 'http' %}
@@ -46,7 +47,7 @@
                 <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-              
+
             <ul class="no-bullet shadow-black">
             {% for network_item in site.data.network %}
               {% if network_item.url contains 'http' %}
