@@ -3,7 +3,7 @@ title: View file directory
 name: file-directory
 action: android.intent.action.VIEW
 uri: uri of directory from FileProvider, DocumentProvider or uri with file scheme, can be empty.
-type: vnd.android.documents/directory
+type: vnd.android.document/directory
 typelink: https://developer.android.com/reference/android/provider/DocumentsContract.Document.html#MIME_TYPE_DIR
 author: Friedger Müffke
 submitted: 2017-10-08
