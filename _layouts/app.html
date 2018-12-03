@@ -7,6 +7,11 @@ format: post
 {% else %}
 {% assign github = page.ref %}
 {% endif %}
+{% if page.package %}
+{% assign package = page.package %}
+{% else %}
+{% assign package = page.ref %}
+{% endif %}
 <div class="row t30">
 	<div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
@@ -52,8 +57,8 @@ format: post
 
 			<a href="https://github.com/openintents/{{github}}">See on Github</a></br>
 		        <a href="https://github.com/openintents/{{github}}/releases">Download from Github</a></br>
-			<a href="https://play.google.com/store/apps/details?id=org.openintents.{{page.ref}}">Download from Google Play</a><br/>
-			<a href="https://f-droid.org/packages/org.openintents.{{page.ref}}/">Download from F-Droid</a>
+			<a href="https://play.google.com/store/apps/details?id=org.openintents.{{package}}">Download from Google Play</a><br/>
+			<a href="https://f-droid.org/packages/org.openintents.{{package}}/">Download from F-Droid</a>
 		</article>
 	</div><!-- /.medium-8.columns -->
 
