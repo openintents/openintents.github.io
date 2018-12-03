@@ -1,6 +1,7 @@
 ---
 title: OI Shopping List
 ref: shoppinglist
+package: shopping
 teaser: OpenIntents Shopping List for Android
 redirect_from: /en/shoppinglist/
 ---
