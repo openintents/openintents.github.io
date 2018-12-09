@@ -5,12 +5,13 @@ categories: apps
 image:
   title: nick-fewings-642033-unsplash.jpg
 ---
+OpenIntents is a community effort to promote and discuss the use of Android intents and similar concept of modern mobile platforms.
 Until now, there were little reasons for OpenIntents to allow apps to access the internet. The applications are mainly
-productivity apps that handle user data on the user's device. OpenIntents does not want to deal with user data or track any users. 
+productivity apps for Android that handle user data on the user's device. OpenIntents does not want to deal with user data or track any users. 
 Therefore, `android.permission.INTERNET` was not added to the manifests even when Google made this permission not dangereous anymore.
 (Read more for example at [Android Police from 2015](https://www.androidpolice.com/2015/06/06/android-m-will-never-ask-users-for-permission-to-use-the-internet-and-thats-probably-okay/))
 
-This changed today. [OI ConvertCSV](https://convertcsv.openintents.org) is the first (of many) application 
+This changed today. 10 years after version 1.0.0 of OI ConvertCSV was released (on 9th Dec 2008), [OI ConvertCSV](https://convertcsv.openintents.org) is the first (of many) application 
 that received the internet permission. OpenIntents 
 still does not want to deal with user data or track users but the user should have the possibility to 
 backup their data at **the location they want** (and import from wherever they want). With the development in 
