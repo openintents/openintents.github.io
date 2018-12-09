@@ -24,7 +24,7 @@ that belongs to the user in the real sense:
 
 OpenIntents is not involved in these user activities. We only provide the code to enable the user and
 we had the chance to contribute to the (open source) Android SDK for Blockstack. OI ConvertCSV was ideal for the 
-first conversion to an app that is backed by user-own storage. As the purpose of the app is to backup and transfer shopping lists 
+first conversion to an app that is backed by user-owned storage. As the purpose of the app is to backup and transfer shopping lists 
 and notes, it was a question of adding a custom document provider for the Android storage access framework (SAF) and an 
 account activity. Through the SAF, the user can now choose a location on their own gaia storage to backup 
 their data or to transfer it to another device. 
