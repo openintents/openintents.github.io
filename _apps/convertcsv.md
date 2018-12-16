@@ -3,6 +3,7 @@ title: OI Convert CSV
 ref: convertcsv
 teaser: Extension for OI Shopping List and OI Notepad
 redirect_from: /en/convertcsv/
+domain: https://convertcsv.openintents.org
 ---
 Import/Export of notes in Palm CSV format, and shopping lists in Outlook task or HandyShopper .CSV format to SD card.
 
