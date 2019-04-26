@@ -10,21 +10,23 @@
   url: "/download"
   side: left
   dropdown:
-  - title: "OI File Manager"
-    url: "/filemanager/"
-  - title: "OI Shopping List"
-    url: "/shoppinglist/"
-  - title: "OI Safe"
-    url: "/safe/"
-  - title: "OI Notepad"
-    url: "/notepad/"
-  - title: "more.."
-    url: "/download/"
+    - title: "OI File Manager"
+      url: "/filemanager/"
+    - title: "OI Shopping List"
+      url: "/shoppinglist/"
+    - title: "OI Safe"
+      url: "/safe/"
+    - title: "OI Notepad"
+      url: "/notepad/"
+    - title: "OI Calendar"
+      url: "/calendar/"
+    - title: "more.."
+      url: "/download/"
 
 - title: "Blog"
   url: "/blog/"
   side: right
-  
+
 - title: "History"
   url: "/history/"
   side: right
