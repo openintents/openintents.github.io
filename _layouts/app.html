@@ -55,12 +55,16 @@ format: post
 			{% include meta_information.html %}
 			{% endif %}
 
+			{% if page.domain %}
+			<b>Android</b><br/>
+			{% endif %}
 			<a href="https://github.com/openintents/{{github}}">See on Github</a></br>
-		        <a href="https://github.com/openintents/{{github}}/releases">Download from Github</a></br>
+		    <a href="https://github.com/openintents/{{github}}/releases">Download from Github</a></br>
 			<a href="https://play.google.com/store/apps/details?id=org.openintents.{{package}}">Download from Google Play</a><br/>
 			<a href="https://f-droid.org/packages/org.openintents.{{package}}/">Download from F-Droid</a>
 	
-	                {% if page.domain %}
+			{% if page.domain %}
+			<b>Blockstack</b></br>
 			<p class="domain" itemprop="sameAs">
 				Visit product page: <a href="{{ page.domain }}">{{page.domain}}</a>
 			</p>
