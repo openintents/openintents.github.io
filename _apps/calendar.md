@@ -1,6 +1,7 @@
 ---
 title: OI Calendar
-ref: calendar-sync
+ref: calendar
+androidref: calendar-sync
 teaser: Private, Encrypted Calendar in Your Cloud
 domain: https://cal.openintents.org
 package: calendar.sync
