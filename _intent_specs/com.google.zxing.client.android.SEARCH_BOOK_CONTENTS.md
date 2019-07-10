@@ -1,6 +1,6 @@
 ---
 title: Search book contents
-action: om.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+action: com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
 extras:
   -
     name: ISBN
