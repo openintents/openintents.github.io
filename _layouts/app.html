@@ -7,6 +7,15 @@ format: post
 {% else %}
 {% assign github = page.ref %}
 {% endif %}
+
+{% if page.githubicon %}
+{% assign githubicon = page.githubicon %}
+{% elif page.github %}
+{% assign githubicon = page.github %}
+{% else %}
+{% assign githubicon = page.ref %}
+{% endif %}
+
 {% if page.package %}
 {% assign package = page.package %}
 {% else %}
@@ -19,7 +28,7 @@ format: post
 				{% if page.image.hide %}
 				{% else %}
 				<figure>
-					<img src="https://raw.githubusercontent.com/openintents/{{ github }}/master/promotion/icons/ic_launcher_{{github}}_512.png" width="125" alt="{{ page.title | escape_once }}" itemprop="image">
+					<img src="https://raw.githubusercontent.com/openintents/{{ githubicon }}/master/promotion/icons/ic_launcher_{{githubicon}}_512.png" width="125" alt="{{ page.title | escape_once }}" itemprop="image">
 
 					{% if page.image.caption_url and page.image.caption %}
 					<figcaption class="text-right">

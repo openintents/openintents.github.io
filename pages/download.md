@@ -10,7 +10,7 @@ permalink: "/download/"
 		{% if app.githubicon %}
 		{% assign githubicon = app.githubicon %}
 		{% elsif app.github %}
-		{% assign github = app.github %}
+		{% assign githubicon = app.github %}
 		{% else }
 		{% assign githubicon = app.ref %}
 		{% endif %}
