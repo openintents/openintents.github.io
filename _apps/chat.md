@@ -1,5 +1,7 @@
 ---
 title: OI Chat
+ref: chat
+githubicon: chat-web
 githubweb: chat-web
 teaser: Deliberate Your Communication
 domain: https://chat.openintents.org

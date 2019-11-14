@@ -18,6 +18,8 @@
       url: "/safe/"
     - title: "OI Notepad"
       url: "/notepad/"
+    - title: "OI Chat"
+      url: "/chat/"
     - title: "OI Calendar"
       url: "/calendar/"
     - title: "more.."
