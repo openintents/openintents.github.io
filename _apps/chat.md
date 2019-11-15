@@ -5,6 +5,7 @@ githubicon: chat-web
 githubweb: chat-web
 teaser: Deliberate Your Communication
 domain: https://chat.openintents.org
+web_only: true
 ---
 The OpenIntents Chat is a web client for the decentralized communication and collaboration network matrix.org. The app enables Blockstack and EOS users to connect to 7m+ users.
 
