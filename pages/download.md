@@ -18,7 +18,8 @@ permalink: "/download/"
 		<li><img src="https://raw.githubusercontent.com/openintents/{{ ghicon }}/master/promotion/icons/ic_launcher_{{ghicon}}_512.png" width="50" alt="{{ page.title | escape_once }}"/>
 		<a href="{{ site.url }}/{{ app.ref}}">{{ app.title }}</a>
 		{% if app.web_only %}
-		{% else % }
+		<!--web only-->
+		{% else %}
 		<img src="https://raw.githubusercontent.com/openintents/openintents.github.io/master/images/android.png" width="25" alt="Android"/>
 		{% endif %}
 		{% if app.domain %}
