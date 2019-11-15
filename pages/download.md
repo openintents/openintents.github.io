@@ -5,7 +5,7 @@ subheadline: "Explore and Download"
 title: "OI Apps"
 permalink: "/download/"
 ---
-<ul style="list-style: none;">
+<ul style="list-style: none; line-height:1; margin-bottom:1em">
     {% for app in site.apps %}
 		{% if app.githubicon %}
 		{% assign ghicon = app.githubicon %}
@@ -20,10 +20,10 @@ permalink: "/download/"
 		{% if app.web_only %}
 		<!--web only-->
 		{% else %}
-		<img src="https://raw.githubusercontent.com/openintents/openintents.github.io/master/images/android.png" width="15" alt="Android"/>
+		<img src="https://raw.githubusercontent.com/openintents/openintents.github.io/master/images/android.png" height="10" alt="Android"/>
 		{% endif %}
 		{% if app.domain %}
-		<img src="https://raw.githubusercontent.com/openintents/openintents.github.io/master/images/blockstack.png" width="15" alt="Blockstack"/>
+		<img src="https://raw.githubusercontent.com/openintents/openintents.github.io/master/images/blockstack.png" height="10" alt="Blockstack"/>
 		{% endif %}
 		</li>
     {% endfor %}
