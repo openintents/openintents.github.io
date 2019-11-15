@@ -7,6 +7,7 @@ permalink: "/download/"
 ---
 <ul style="list-style: none;">
     {% for app in site.apps %}
+		<!-- 1:{{app.githubicon}} 2:app.github 3:app.ref -->
 		{% if app.githubicon %}
 		{% assign ghicon = app.githubicon %}
 		{% elsif app.github %}
