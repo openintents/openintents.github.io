@@ -64,10 +64,8 @@ format: post
 			{% include meta_information.html %}
 			{% endif %}
 
-			{% if github %}
-			{% if page.domain %}
+			{% if page.web_only != true %}
 			<b>Android</b><br/>
-			{% endif %}
 			<a href="https://github.com/openintents/{{github}}">See on Github</a></br>
 		    <a href="https://github.com/openintents/{{github}}/releases">Download from Github</a></br>
 			<a href="https://play.google.com/store/apps/details?id=org.openintents.{{package}}">Download from Google Play</a><br/>
