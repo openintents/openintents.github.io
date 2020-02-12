@@ -59,4 +59,4 @@ The path is action/[action]/[name], e.g. http://www.openintents.org/action/andro
 The name of the file should match the name property. Name clashes with the main specification must be avoided.
 
 ## OI Apps
-See https://openintents.org/download for all apps and more.
+See http://openintents.org/download for all apps and more.

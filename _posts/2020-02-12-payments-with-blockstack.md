@@ -6,7 +6,7 @@ image:
   title: dan-meyers-MQ8-4HYTgOc-unsplash.jpg
 ---
 
-The development of OI apps are only supported by [donations](https://openintents.org/contribute). With the adoption of Blockstack technologies, new possibilities came up to accept payments in a privacy-preserving manner and in particular without the need to maintain a database of user data. (Obviously, you will need to do what is needed for your book keeping.)
+The development of OI apps are only supported by [donations](http://openintents.org/contribute). With the adoption of Blockstack technologies, new possibilities came up to accept payments in a privacy-preserving manner and in particular without the need to maintain a database of user data. (Obviously, you will need to do what is needed for your book keeping.)
 
 To separete the concerns of payments and the actual apps, a new app `Blockstack Legends` was build that is only dealing with accepting credit cards, cash or payments from other providers. Once, the payment is processed the app will issue a membership card of the Blockstack Legends Club.
 
