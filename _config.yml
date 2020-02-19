@@ -16,7 +16,7 @@ slogan: "Where applications unite"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "OpenIntents is a community effort to promote and discuss the use of Android intents and similar concept of modern mobile platforms."
+description: "OpenIntents is a community effort to promote and discuss the use of Android intents, Blockstack data sharing and similar concepts of modern mobile platforms."
 
 
 # This URL is the main adresse. Don't include a slash at the end.
@@ -192,7 +192,7 @@ og_image:                           "https://avatars2.githubusercontent.com/u/31
 og_locale:                          "en_EN"
 og_type:                            "website"
 og_title:                           "OpenIntents – Where Applications unite"
-og_description:                     "OpenIntents is a community effort to promote and discuss the use of Android intents and similar concept of modern mobile platforms."
+og_description:                     "OpenIntents is a community effort to promote and discuss the use of Android intents, Blockstack data sharing and similar concepts of modern mobile platforms."
 # og_url:                           ""
 # og_site_name:                     ""
 
