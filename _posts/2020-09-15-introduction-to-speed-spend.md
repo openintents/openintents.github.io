@@ -8,7 +8,7 @@ image:
 
 The development of the [Stacks testnet](https://www.blockstack.org/testnet) is progressing and it is now in a state that first smart contracts have been published. It is still early and changes to syntax, tooling and functions are still expected. Therefore, this post is updated as the testnet evolves.
 
-There is already good [documentation](https://docs.blockstack.org/smart-contracts/overview) how to publish smart contracts on testnet. Following that descriptions provides you with a setup to develop your own contracts or experiment with existing ones. Alternatively, you can use the [Clarity Web IDE](https://friedger.github.io/clarity-web-ide/).
+There is already good [documentation](https://docs.blockstack.org/smart-contracts/overview) how to publish smart contracts on testnet. Following that descriptions provides you with a setup to develop your own contracts or experiment with existing ones. Alternatively, you can use the [Clarity Web IDE](https://friedger.github.io/clarity-web-ide/). You find a selection of Clarity smart contracts on [github](https://github.com/friedger/clarity-smart-contracts).
 
 We build a web application called [Speed Spend](https://speed-spend.netlify.app) that explores different use cases for smart contracts in web apps. It is an educational app with focus on functionality, not design. Please send pull requests to beautify the app!
 
