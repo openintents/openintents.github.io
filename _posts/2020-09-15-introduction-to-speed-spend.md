@@ -60,7 +60,7 @@ The stacks blockchain api client library provides the tools for it. There is a `
 
 ## Proof of Hodl Login, Flip Coin and Monsters
 
-The interaction with smart contracts is explored on the "Hodl Token", "Flip Coin" and "Monster" pages. The details about fungible and non-fungible token, smart contract calls and Proof of Hodl login will be covered in an other post.
+The interaction with smart contracts is explored on the "Hodl Token", "Flip Coin" and "Monster" pages. The details about fungible and non-fungible token, smart contract calls and Proof of Hodl login will be covered in another post.
 
 ## References
 
