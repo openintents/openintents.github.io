@@ -23,7 +23,7 @@ With the latest upgrade of Clarity on the Krypton testnet, it is now possible to
 )
 ```
 
-The marketplace contract assumes that all NFTs are always available for sale. There is one function to place a bid for an compatible NFT, one function to accept a bid, one function to pay for the bid and in case the payment does not happen timely one function to cancle the deal. After the owner of an NFT accepted a bid the marketplace smart contract owns the NFT until the bid is paid for or the deal was cancelled. The contract's address is `ST12EY99GS4YKP0CP2CFW6SEPWQ2CGVRWK5GHKDRV.market`. It's source code is available on chain and on [github](https://github.com/friedger/clarity-marketplace).
+The marketplace contract assumes that all NFTs are always available for sale. There is one function to place a bid for an compatible NFT, one function to accept a bid, one function to pay for the bid and in case the payment does not happen timely one function to cancel the deal. After the owner of an NFT accepted a bid the marketplace smart contract owns the NFT until the bid is paid for or the deal was cancelled. The contract's address is `ST12EY99GS4YKP0CP2CFW6SEPWQ2CGVRWK5GHKDRV.market`. It's source code is available on chain and on [github](https://github.com/friedger/clarity-marketplace).
 
 On Speed Spend, a basic UI was added that allows users to interact with all four market place functions and the two NFTs. On the testnet explorer sandbox, it is currently not possible to use these functions because the UI does not except contracts as parameters. See [issue #244](https://github.com/blockstack/explorer/issues/244) for details.
 
