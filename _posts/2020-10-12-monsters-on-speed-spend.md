@@ -3,7 +3,7 @@ title: Monsters on Speed Spend
 subheadline: Marketplace for NFTs on Stacks Blockchain
 categories: blockstack
 image:
-  title: start.jpg
+  title: marketplace.jpg
 ---
 
 Non-fungible tokens (NFTs) are digital assets that live on the blockchain as data entries of a smart contract. They are globally unique and represent some kind of ownership. It could be ownership of a digital collectible, a gaming item, artwork or a representation of a real-world asset like a diamond or a theater ticket. Like a real-world asset, an NFT can be transferred from one user to another.
@@ -29,7 +29,7 @@ On Speed Spend, a basic UI was added that allows users to interact with all four
 
 ## Monsters on Speed Spend
 
-The monster page shows the recent transactions on the marketplace contract. Each transaction has appropriate action buttons for the users, e.g. the owner can accept bids after a `bid` transaction, bidders can pay after an `accept` transaction. The video below shows a typical flow.
+The monster page shows the recent transactions on the marketplace contract. Each transaction has appropriate action buttons for the users, e.g. the owner can accept bids after a `bid` transaction, bidders can pay after an `accept` transaction. The video below shows a typical flow using the monster NFT.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gKOeUbI8F9o" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -50,6 +50,8 @@ The video was created using a local setup for faster transaction confirmation. I
   ```
 
 - to run a local authenticator using my fork (see [issue #618](https://github.com/blockstack/ux/issues/618) - once the corresponding PR is merged this is not necessary anymore).
+
+There is also a UI to bid for a pseudo NFT: users can bid for NFTs with an arbitary id, however, there is no user to accept the bid and the flow stays in the bidding state forever. It is just to show that the marketplace can handle more than one type of NFTs.
 
 ## NFTs session
 
