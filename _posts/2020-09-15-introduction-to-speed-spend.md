@@ -6,9 +6,11 @@ image:
   title: start.jpg
 ---
 
+_Edit 10th Dec 2020: Using stacks.js instead of blockstack.js_
+
 The development of the [Stacks testnet](https://www.blockstack.org/testnet) is progressing and it is now in a state that first smart contracts have been published. It is still early and changes to syntax, tooling and functions are still expected. Therefore, this post is updated as the testnet evolves.
 
-There is already good [documentation](https://docs.blockstack.org/smart-contracts/overview) how to publish smart contracts on testnet. Following that descriptions provides you with a setup to develop your own contracts or experiment with existing ones. Alternatively, you can use the [Clarity Web IDE](https://friedger.github.io/clarity-web-ide/). You find a selection of Clarity smart contracts on [github](https://github.com/friedger/clarity-smart-contracts).
+There is already good [documentation](https://docs.blockstack.org/write-smart-contracts/overview) how to publish smart contracts on testnet. Following that descriptions provides you with a setup to develop your own contracts or experiment with existing ones. Alternatively, you can use the [Clarity Web IDE](https://friedger.github.io/clarity-web-ide/). You find a selection of Clarity smart contracts on [github](https://github.com/friedger/clarity-smart-contracts).
 
 We build a web application called [Speed Spend](https://speed-spend.netlify.app) that explores different use cases for smart contracts in web apps. It is an educational app with focus on functionality, not design. Please send pull requests to beautify the app!
 
@@ -21,7 +23,7 @@ Through the Blockstack authentication process, a user has two different stacks a
 - the owner stacks account that is derived from the private key and is only available in the authenticator app (Connect)
 - the app stacks account that is derived from the app private key
 
-The difference between the two is that the owner stacks account is read-only for the app, while the app stacks account is under full control of the app. The owner stacks account can only be used by the user via the Connect app. The stacks account is returned after authentication to the app in `userData.profile.stxAddress`. Therefore, the app has read-only access to that account. All other interactions with that account needs to be delegated to Connect. The [connect library](https://www.npmjs.com/package/@blockstack/connect) provides the necessary methods for that like [`openSTXTransfer`](https://docs.blockstack.org/smart-contracts/signing-transactions) (and `doSTXTransfer` for react) or `openContractCall` (`doContractCall` for react).
+The difference between the two is that the owner stacks account is read-only for the app, while the app stacks account is under full control of the app. The owner stacks account can only be used by the user via the Connect app. The stacks account is returned after authentication to the app in `userData.profile.stxAddress`. Therefore, the app has read-only access to that account. All other interactions with that account needs to be delegated to Connect. The [connect library](https://www.npmjs.com/package/@stacks/connect) provides the necessary methods for that like [`openSTXTransfer`](https://docs.blockstack.org/write-smart-contracts/signing-transactions) (and `doSTXTransfer` for react) or `openContractCall` (`doContractCall` for react).
 
 The apps stacks account can be used without any explicit consent by the user. Transactions can be signed and submitted directly.
 
@@ -40,7 +42,7 @@ addressFromPublicKeys(
   );
 ```
 
-The [stacks-transaction library](https://www.npmjs.com/package/@blockstack/stacks-transactions) provides the method `addressFromPublicKeys`. Here, we just use a single signature account on the testnet.
+The [stacks.js transaction library](https://www.npmjs.com/package/@stacks/transactions) provides the method `addressFromPublicKeys`. Here, we just use a single signature account on the testnet.
 
 The Hodl page let you transfer STX between your two Stacks accounts. The transfer from the user owned stacks accounts requires a confirmation from the user through Connect using `doSTXTransfer` from the connect library. See [OwnerAddressSpendField.js](https://github.com/friedger/speed-spend/blob/master/src/components/OwnerAddressSpendField.js).
 
@@ -64,6 +66,6 @@ The interaction with smart contracts is explored on the "Hodl Token", "Flip Coin
 
 ## References
 
-- [connect](https://www.npmjs.com/package/@blockstack/connect) Library to deal with the owner stacks address
-- [stacks-transactions](https://www.npmjs.com/package/@blockstack/stacks-transactions) Library to deal with transactions if you have a private key
+- [connect](https://www.npmjs.com/package/@stacks/connect) Library to deal with the owner stacks address
+- [stacks-transactions](https://www.npmjs.com/package/@stacks/transactions) Library to deal with transactions if you have a private key
 - [stacks-blockstack-api-client](https://www.npmjs.com/package/@stacks/blockchain-api-client) Library to query the state of the chain and transactions
