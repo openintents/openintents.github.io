@@ -18,6 +18,7 @@ Proof of Transfer is a blockchain consensus algorithm that is open and has exter
     <li><a href="https://boom.money">NFTs secured by Bitcoins</a><br/><small>Boom Wallet.</small></li>
     <li><a href="https://docs.stacks.co/start-mining/mainnet">Stacks Mining</a><br/><small>Support and experience with mining Stacks token.</small></li>
     <li><a href="https://minecitycoins.com/">City Coins</a><br/><small>Cryptocurrencies that allow you to support your favorite cities while earning Stacks.</small></li>
+    <li><a href="https://did-on-btc.org/">Decentralized Identity</a><br/><small>Create and manage your decentralized identity with Bitcoin only.</small></li>
 </ul>
 
 Contact us for more details.
