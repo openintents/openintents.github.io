@@ -9,7 +9,7 @@ title: "OpenIntents – Where applications unite"
 widget-1:
     title: "Proof of Transfer"
     url: '/proof-of-transfer/'
-    text: 'You can find the source code of this site and all apps at Github.'
+    text: 'Work on the Stacks Blockchain'
     image: proof-of-transfer-303x182.jpg
 widget-2:
     title: "Intents Registry"
