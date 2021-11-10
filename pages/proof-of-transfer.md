@@ -2,8 +2,8 @@
 layout: page
 show_meta: false
 subheadline: "Proof of Transfer"
-title: "Contributions to the Stacks Ecosystem"
-teaser: "From Concepts to Production-Ready Protocols."
+title: "From Concepts to Production-Ready Protocols"
+teaser: "Contributions to the Stacks Ecosystem"
 permalink: "/proof-of-transfer/"
 ---
 
