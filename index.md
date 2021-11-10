@@ -7,18 +7,18 @@
 layout: frontpage
 title: "OpenIntents – Where applications unite"
 widget-1:
+    title: "Proof of Transfer"
+    url: '/proof-of-transfer/'
+    text: 'You can find the source code of this site and all apps at Github.'
+    image: proof-of-transfer-303x182.jpg
+widget-2:
     title: "Intents Registry"
     url: '/intentsregistry/'
     text: 'Intent specifications is the base for all communications between apps.'
     image: database-303x182.jpg
-widget-2:
+widget-3:
     title: "OI Apps"
     url: '/download/'
     text: 'OpenIntents has produced several open source apps to show case the use of intents. Explore and download them'
     image: oiapps-303x182.jpg
-widget-3:
-    title: "Check the source"
-    url: 'https://github.com/openintents'
-    text: 'You can find the source code of this site and all apps at Github.'
-    image: github-303x182.jpg
 ---
