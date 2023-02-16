@@ -6,6 +6,9 @@ subheadline: "OpenIntents History"
 teaser: "History and changelog of OpenIntents activities and site"
 permalink: "/history/"
 ---
+2023-02-16 // Version 2.1.1
+:    Self-hosting fonts, add CSP, remove Brave
+
 2017-11-18 // Version 2.1.0
 :    Add Brave and BasicAttentionToken partnership
 
