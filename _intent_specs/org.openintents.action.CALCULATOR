@@ -1,0 +1,38 @@
+---
+title: Launch calculator for a result
+action: org.openintents.action.CALCULATOR
+extras:
+  -
+    name: X
+    type: double
+    var: X
+    description: X register value
+  -
+    name: Y
+    type: double
+    var: Y
+    description: Y register value
+   -
+    name: Z
+    type: double
+    var: Z
+    description: Z register value
+out:
+  extras:
+    -
+      name: X
+      type: double
+      var: X
+      description: X register value
+    -
+      name: Y
+      type: double
+      var: Y
+      description: Y register value
+     -
+      name: Z
+      type: double
+      var: Z
+      description: Z register value
+---
+Launches the calculator app with optional initial values for X,Y,Z registers. Returns X,Y,Z to the caller.
